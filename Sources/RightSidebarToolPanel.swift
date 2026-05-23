@@ -174,6 +174,27 @@ final class RightSidebarToolPanel: Panel, ObservableObject {
                 return
             }
             let unavailableDetail = workspace.remoteConnectionDetail ?? workspace.remoteDaemonStatus.detail
+
+            // Resolve preferred remote CWD from panel directories.
+            // Only use directories from panels confirmed as remote terminal sessions.
+            let preferredRemoteDir: String? = {
+                guard workspace.remoteConnectionState == .connected else { return nil }
+                if let focusedPanelId = workspace.focusedPanelId,
+                   workspace.isRemoteTerminalSurface(focusedPanelId),
+                   let dir = workspace.panelDirectories[focusedPanelId]?
+                       .trimmingCharacters(in: .whitespacesAndNewlines),
+                   !dir.isEmpty {
+                    return dir
+                }
+                for (panelId, dir) in workspace.panelDirectories {
+                    let trimmed = dir.trimmingCharacters(in: .whitespacesAndNewlines)
+                    if !trimmed.isEmpty, workspace.isRemoteTerminalSurface(panelId) {
+                        return trimmed
+                    }
+                }
+                return nil
+            }()
+
             store.applyWorkspaceRoot(
                 .remoteSSH(
                     workspaceId: workspace.id,
@@ -185,7 +206,8 @@ final class RightSidebarToolPanel: Panel, ObservableObject {
                     ),
                     displayTarget: configuration.displayTarget,
                     isAvailable: workspace.remoteConnectionState == .connected,
-                    unavailableDetail: unavailableDetail
+                    unavailableDetail: unavailableDetail,
+                    preferredRootPath: preferredRemoteDir
                 )
             )
             return

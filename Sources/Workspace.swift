@@ -36,6 +36,11 @@ enum WorkspacePendingTerminalInputPolicy {
     }
 }
 
+// @unchecked Sendable safety: This type is only ever accessed on the MainActor
+// (created, mutated, and read exclusively from Workspace methods which run on main).
+// The Sendable conformance is needed because it's stored in a dictionary that crosses
+// an isolation boundary in the notification observer closure, but all actual access
+// is serialized on the main thread.
 private final class WorkspacePendingTerminalInputObserver: @unchecked Sendable {
     var observer: NSObjectProtocol?
 }
@@ -5434,6 +5439,15 @@ final class WorkspaceRemoteSessionController {
         return URL(fileURLWithPath: path, isDirectory: false).standardizedFileURL
     }
 
+    /// Returns the URL of a bundled remote daemon binary embedded in the app's Resources directory.
+    /// Fork builds embed pre-compiled binaries at Resources/cmuxd-remote-<goOS>-<goArch>.
+    private static func bundledRemoteDaemonBinaryURL(goOS: String, goArch: String) -> URL? {
+        guard let resourceURL = Bundle.main.resourceURL else { return nil }
+        let binaryURL = resourceURL.appendingPathComponent("cmuxd-remote-\(goOS)-\(goArch)", isDirectory: false)
+        guard FileManager.default.fileExists(atPath: binaryURL.path) else { return nil }
+        return binaryURL
+    }
+
     private static func versionedRemoteDaemonBuildURL(goOS: String, goArch: String, version: String) -> URL {
         URL(fileURLWithPath: NSTemporaryDirectory(), isDirectory: true)
             .appendingPathComponent("cmux-remote-daemon-build", isDirectory: true)
@@ -5543,6 +5557,13 @@ final class WorkspaceRemoteSessionController {
            FileManager.default.isExecutableFile(atPath: explicitBinary.path) {
             debugLog("remote.build.explicit path=\(explicitBinary.path)")
             return explicitBinary
+        }
+
+        // Check for bundled daemon binary in app Resources (fork builds embed binaries directly)
+        if let bundledURL = Self.bundledRemoteDaemonBinaryURL(goOS: goOS, goArch: goArch),
+           FileManager.default.isExecutableFile(atPath: bundledURL.path) {
+            debugLog("remote.build.bundled path=\(bundledURL.path)")
+            return bundledURL
         }
 
         if let manifest = Self.remoteDaemonManifest(),
@@ -14708,17 +14729,29 @@ extension Workspace: BonsplitDelegate {
                     // Keep the existing placeholder tab identity and replace only the panel mapping.
                     // This avoids an extra create+close tab churn that can transiently render an
                     // empty pane during drag-to-split of a single-tab pane.
-                    let inheritedConfig = inheritedTerminalConfig(inPane: originalPane)
+                    var inheritedConfig = inheritedTerminalConfig(inPane: originalPane)
+                    let remoteCommand = remoteTerminalStartupCommand()
+                    // Hold the PTY open after the remote session ends so the user sees
+                    // the exit message rather than a silently-respawned local login shell.
+                    if remoteCommand != nil {
+                        var template = inheritedConfig ?? CmuxSurfaceConfigTemplate()
+                        template.waitAfterCommand = true
+                        inheritedConfig = template
+                    }
 
                     let replacementPanel = TerminalPanel(
                         workspaceId: id,
                         context: GHOSTTY_SURFACE_CONTEXT_SPLIT,
                         configTemplate: inheritedConfig,
-                        portOrdinal: portOrdinal
+                        portOrdinal: portOrdinal,
+                        initialCommand: remoteCommand
                     )
                     configureTerminalPanel(replacementPanel)
                     panels[replacementPanel.id] = replacementPanel
                     panelTitles[replacementPanel.id] = replacementPanel.displayTitle
+                    if remoteCommand != nil {
+                        trackRemoteTerminalSurface(replacementPanel.id)
+                    }
                     seedTerminalInheritanceFontPoints(panelId: replacementPanel.id, configTemplate: inheritedConfig)
                     surfaceIdToPanelId[replacementTab.id] = replacementPanel.id
 
@@ -14765,6 +14798,7 @@ extension Workspace: BonsplitDelegate {
         // (or fall back to defaults) instead of leaving an empty selector pane.
         let sourceTabId = controller.selectedTab(inPane: originalPane)?.id
         let sourcePanelId = sourceTabId.flatMap { panelIdFromSurfaceId($0) }
+        let remoteTerminalStartupCommand = remoteTerminalStartupCommand()
 
 #if DEBUG
         cmuxDebugLog(
@@ -14773,20 +14807,31 @@ extension Workspace: BonsplitDelegate {
         )
 #endif
 
-        let inheritedConfig = inheritedTerminalConfig(
+        var inheritedConfig = inheritedTerminalConfig(
             preferredPanelId: sourcePanelId,
             inPane: originalPane
         )
+        // Hold the PTY open after the remote session ends so the user sees
+        // the exit message rather than a silently-respawned local login shell.
+        if remoteTerminalStartupCommand != nil {
+            var template = inheritedConfig ?? CmuxSurfaceConfigTemplate()
+            template.waitAfterCommand = true
+            inheritedConfig = template
+        }
 
         let newPanel = TerminalPanel(
             workspaceId: id,
             context: GHOSTTY_SURFACE_CONTEXT_SPLIT,
             configTemplate: inheritedConfig,
-            portOrdinal: portOrdinal
+            portOrdinal: portOrdinal,
+            initialCommand: remoteTerminalStartupCommand
         )
         configureTerminalPanel(newPanel)
         panels[newPanel.id] = newPanel
         panelTitles[newPanel.id] = newPanel.displayTitle
+        if remoteTerminalStartupCommand != nil {
+            trackRemoteTerminalSurface(newPanel.id)
+        }
         seedTerminalInheritanceFontPoints(panelId: newPanel.id, configTemplate: inheritedConfig)
 
         guard let newTabId = bonsplitController.createTab(
@@ -14799,6 +14844,9 @@ extension Workspace: BonsplitDelegate {
         ) else {
             panels.removeValue(forKey: newPanel.id)
             panelTitles.removeValue(forKey: newPanel.id)
+            if remoteTerminalStartupCommand != nil {
+                untrackRemoteTerminalSurface(newPanel.id)
+            }
             terminalInheritanceFontPointsByPanelId.removeValue(forKey: newPanel.id)
             return
         }

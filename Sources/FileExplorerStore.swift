@@ -285,7 +285,8 @@ enum FileExplorerWorkspaceRoot: Equatable {
         connection: SSHFileExplorerConnection,
         displayTarget: String,
         isAvailable: Bool,
-        unavailableDetail: String?
+        unavailableDetail: String?,
+        preferredRootPath: String? = nil
     )
 }
 
@@ -683,13 +684,14 @@ final class FileExplorerStore: ObservableObject {
             }
             setRootPath(path)
 
-        case .remoteSSH(let workspaceId, let connection, let displayTarget, let isAvailable, let unavailableDetail):
+        case .remoteSSH(let workspaceId, let connection, let displayTarget, let isAvailable, let unavailableDetail, let preferredRootPath):
             applyRemoteSSHWorkspaceRoot(
                 workspaceId: workspaceId,
                 connection: connection,
                 displayTarget: displayTarget,
                 isAvailable: isAvailable,
                 unavailableDetail: unavailableDetail,
+                preferredRootPath: preferredRootPath,
                 sshTransport: sshTransport
             )
         }
@@ -978,6 +980,7 @@ final class FileExplorerStore: ObservableObject {
         displayTarget: String,
         isAvailable: Bool,
         unavailableDetail: String?,
+        preferredRootPath: String? = nil,
         sshTransport: SSHFileExplorerTransport
     ) {
         let existingProvider = provider as? SSHFileExplorerProvider
@@ -1016,6 +1019,15 @@ final class FileExplorerStore: ObservableObject {
                     String(localized: "fileExplorer.status.sshUnavailable", defaultValue: "SSH files unavailable")
                 )
             }
+            return
+        }
+
+        // If a preferred root path was provided (from remote shell CWD reporting),
+        // use it directly instead of falling back to $HOME.
+        if let preferred = preferredRootPath?.trimmingCharacters(in: .whitespacesAndNewlines),
+           !preferred.isEmpty {
+            setRootStatusMessage(nil)
+            setRootPath(preferred)
             return
         }
 

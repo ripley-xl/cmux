@@ -2496,6 +2496,28 @@ struct ContentView: View {
             )
             #endif
 
+            // Resolve preferred remote CWD from panel directories.
+            // Only use directories from panels confirmed as remote terminal sessions.
+            let preferredRemoteDir: String? = {
+                guard tab.remoteConnectionState == .connected else { return nil }
+                // Prefer focused panel's directory
+                if let focusedPanelId = tab.focusedPanelId,
+                   tab.isRemoteTerminalSurface(focusedPanelId),
+                   let dir = tab.panelDirectories[focusedPanelId]?
+                       .trimmingCharacters(in: .whitespacesAndNewlines),
+                   !dir.isEmpty {
+                    return dir
+                }
+                // Fallback: any remote terminal panel's directory
+                for (panelId, dir) in tab.panelDirectories {
+                    let trimmed = dir.trimmingCharacters(in: .whitespacesAndNewlines)
+                    if !trimmed.isEmpty, tab.isRemoteTerminalSurface(panelId) {
+                        return trimmed
+                    }
+                }
+                return nil
+            }()
+
             fileExplorerStore.applyWorkspaceRoot(
                 .remoteSSH(
                     workspaceId: tab.id,
@@ -2507,7 +2529,8 @@ struct ContentView: View {
                     ),
                     displayTarget: config.displayTarget,
                     isAvailable: tab.remoteConnectionState == .connected,
-                    unavailableDetail: unavailableDetail
+                    unavailableDetail: unavailableDetail,
+                    preferredRootPath: preferredRemoteDir
                 )
             )
             return
