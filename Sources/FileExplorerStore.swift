@@ -475,8 +475,8 @@ final class ProcessSSHFileExplorerTransport: SSHFileExplorerTransport {
                 process.terminate()
             }
 
-            let data = outPipe.fileHandleForReading.readDataToEndOfFile()
-            let stderrData = errPipe.fileHandleForReading.readDataToEndOfFile()
+            let data = ProcessPipeReader.readDataToEndOfFileOrEmpty(from: outPipe.fileHandleForReading)
+            let stderrData = ProcessPipeReader.readDataToEndOfFileOrEmpty(from: errPipe.fileHandleForReading)
             process.waitUntilExit()
             terminationGate.markFinished()
             lock.lock()
@@ -1287,7 +1287,7 @@ enum GitStatusProvider {
         process.standardError = FileHandle.nullDevice
         do {
             try process.run()
-            let data = pipe.fileHandleForReading.readDataToEndOfFile()
+            let data = ProcessPipeReader.readDataToEndOfFileOrEmpty(from: pipe.fileHandleForReading)
             process.waitUntilExit()
             guard process.terminationStatus == 0 else { return nil }
             return String(data: data, encoding: .utf8)
@@ -1314,7 +1314,7 @@ enum GitStatusProvider {
         process.standardError = FileHandle.nullDevice
         do {
             try process.run()
-            let data = pipe.fileHandleForReading.readDataToEndOfFile()
+            let data = ProcessPipeReader.readDataToEndOfFileOrEmpty(from: pipe.fileHandleForReading)
             process.waitUntilExit()
             guard process.terminationStatus == 0 else { return nil }
             return String(data: data, encoding: .utf8)

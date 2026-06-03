@@ -100,6 +100,57 @@ final class TerminalCmdClickUITests: XCTestCase {
         )
     }
 
+    func testContextMenuOnUnselectedTerminalWordIncludesLookupAndPaneActions() throws {
+        let app = launchApp(captureOpenPaths: false, captureHoverDiagnostics: false)
+        defer { app.terminate() }
+
+        _ = try waitForReadySetup()
+        let result = try runCommand(action: "context_menu_token")
+        XCTAssertEqual(
+            result["lastCommandSucceeded"] as? String,
+            "1",
+            "Expected unselected token context menu to include Look Up plus pane actions without Copy. result=\(result)"
+        )
+
+        let titles = try XCTUnwrap(result["lastCommandMenuTitles"] as? [String])
+        XCTAssertTrue(
+            titles.contains { $0.hasPrefix("Look Up “Cmd\\ Click\\ Fixture.txt") || $0.hasPrefix("Look Up “Cmd Click Fixture.txt") },
+            "Expected Look Up title to include the right-clicked terminal word. titles=\(titles)"
+        )
+        XCTAssertFalse(titles.contains("Copy"), "Unselected word menu should not expose selection Copy. titles=\(titles)")
+        XCTAssertTrue(titles.contains("Paste"), "Expected pane Paste action to remain available. titles=\(titles)")
+        XCTAssertTrue(titles.contains("Split Horizontally"), "Expected pane split action to remain available. titles=\(titles)")
+        XCTAssertTrue(titles.contains("Reset Terminal"), "Expected pane reset action to remain available. titles=\(titles)")
+    }
+
+    func testContextMenuOnSelectedTerminalTextIncludesCopyLookupAndPaneActions() throws {
+        let app = launchApp(captureOpenPaths: false, captureHoverDiagnostics: false)
+        defer { app.terminate() }
+
+        _ = try waitForReadySetup()
+        let result = try runCommand(action: "context_menu_selected_token")
+        XCTAssertEqual(
+            result["lastCommandSucceeded"] as? String,
+            "1",
+            "Expected selected token context menu to include Copy, Look Up, and pane actions. result=\(result)"
+        )
+        XCTAssertEqual(
+            result["lastCommandSelectionActive"] as? String,
+            "1",
+            "Expected UI harness to create a real Ghostty selection before inspecting the menu. result=\(result)"
+        )
+
+        let titles = try XCTUnwrap(result["lastCommandMenuTitles"] as? [String])
+        XCTAssertTrue(titles.contains("Copy"), "Expected selected text menu to expose Copy. titles=\(titles)")
+        XCTAssertTrue(
+            titles.contains { $0.hasPrefix("Look Up “") },
+            "Expected selected text menu to expose quoted Look Up title. titles=\(titles)"
+        )
+        XCTAssertTrue(titles.contains("Paste"), "Expected pane Paste action to remain available. titles=\(titles)")
+        XCTAssertTrue(titles.contains("Split Horizontally"), "Expected pane split action to remain available. titles=\(titles)")
+        XCTAssertTrue(titles.contains("Reset Terminal"), "Expected pane reset action to remain available. titles=\(titles)")
+    }
+
     func testCmdClickEscapedPathWithSpacesOpensResolvedFile() throws {
         let app = launchApp(
             displayMode: .escaped,
@@ -348,6 +399,96 @@ final class TerminalCmdClickUITests: XCTestCase {
         XCTAssertTrue(
             waitForOpenCountToStay(0, timeout: 0.75),
             "Expected cmux file preview routing to avoid the external opener. opened=\(loadCapturedOpenPaths())"
+        )
+    }
+
+    func testCmdClickMarketingSkillMarkdownPathWithTrailingPeriodOpensMarkdownViewer() throws {
+        let fileName = "skills/marketing/data/lawrencecchen-tweets.md"
+        let app = launchApp(
+            displayMode: .raw,
+            lineFormat: .log,
+            fileName: fileName,
+            displaySuffix: ".",
+            captureOpenPaths: true,
+            captureHoverDiagnostics: false,
+            openMarkdownInCmuxViewer: true
+        )
+        defer { app.terminate() }
+
+        let setup = try waitForReadySetup()
+        let expectedResolvedPath = expectedPath(for: fileName)
+        XCTAssertEqual(setup.expectedPath, expectedResolvedPath)
+
+        let result = try runCommand(action: "cmd_click_token")
+        XCTAssertEqual(
+            result["lastCommandSucceeded"] as? String,
+            "1",
+            "Expected cmd-click to open the Markdown path without the trailing period. result=\(result)"
+        )
+        XCTAssertEqual(
+            result["lastCommandOpenedPath"] as? String,
+            expectedResolvedPath,
+            "Expected cmd-click to trim the prose period from the Markdown path. result=\(result)"
+        )
+        XCTAssertEqual(
+            result["lastCommandOpenedInMarkdownViewer"] as? String,
+            "1",
+            "Expected Markdown paths to open in the cmux Markdown viewer. result=\(result)"
+        )
+        XCTAssertEqual(
+            result["lastCommandOpenedInFilePreview"] as? String,
+            "0",
+            "Expected Markdown paths not to fall through to the generic file preview. result=\(result)"
+        )
+        XCTAssertTrue(
+            waitForOpenCountToStay(0, timeout: 0.75),
+            "Expected cmux Markdown routing to avoid the external opener. opened=\(loadCapturedOpenPaths())"
+        )
+    }
+
+    func testCmdClickQuotedAbsoluteMarkdownPathWithTrailingPeriodOpensMarkdownViewer() throws {
+        let fileName = "skills/marketing/data/lawrencecchen-tweets.md"
+        let app = launchApp(
+            displayMode: .raw,
+            lineFormat: .log,
+            fileName: fileName,
+            linePrefix: "\"",
+            displaySuffix: ".\"",
+            displayAsAbsolutePath: true,
+            captureOpenPaths: true,
+            captureHoverDiagnostics: false,
+            openMarkdownInCmuxViewer: true
+        )
+        defer { app.terminate() }
+
+        let setup = try waitForReadySetup()
+        let expectedResolvedPath = expectedPath(for: fileName)
+        XCTAssertEqual(setup.expectedPath, expectedResolvedPath)
+
+        let result = try runCommand(action: "cmd_click_token")
+        XCTAssertEqual(
+            result["lastCommandSucceeded"] as? String,
+            "1",
+            "Expected cmd-click to open the quoted absolute Markdown path without the trailing period. result=\(result)"
+        )
+        XCTAssertEqual(
+            result["lastCommandOpenedPath"] as? String,
+            expectedResolvedPath,
+            "Expected cmd-click to trim the prose period from the absolute Markdown path. result=\(result)"
+        )
+        XCTAssertEqual(
+            result["lastCommandOpenedInMarkdownViewer"] as? String,
+            "1",
+            "Expected absolute Markdown paths to open in the cmux Markdown viewer. result=\(result)"
+        )
+        XCTAssertEqual(
+            result["lastCommandOpenedInFilePreview"] as? String,
+            "0",
+            "Expected Markdown routing, not generic file preview. result=\(result)"
+        )
+        XCTAssertTrue(
+            waitForOpenCountToStay(0, timeout: 0.75),
+            "Expected cmux Markdown routing to avoid the external opener. opened=\(loadCapturedOpenPaths())"
         )
     }
 
@@ -659,14 +800,18 @@ final class TerminalCmdClickUITests: XCTestCase {
         lineFormat: LineFormat = .grid,
         fileName: String = "Cmd Click Fixture.txt",
         linePrefix: String = "",
+        displaySuffix: String = "",
+        displayAsAbsolutePath: Bool = false,
         extraFileNames: [String] = [],
         captureOpenPaths: Bool,
         captureHoverDiagnostics: Bool,
         openSupportedFilesInCmux: Bool = false,
+        openMarkdownInCmuxViewer: Bool? = nil,
         quicklookOverride: String? = nil,
         viewportOffsetDelta: Int? = nil
     ) -> XCUIApplication {
         let app = XCUIApplication()
+        app.launchArguments += ["-AppleLanguages", "(en)", "-AppleLocale", "en_US"]
         app.launchEnvironment["CMUX_TAG"] = "ui-test-terminal-cmd-click"
         app.launchEnvironment["CMUX_UI_TEST_MODE"] = "1"
         app.launchEnvironment["CMUX_UI_TEST_TERMINAL_CMD_CLICK_SETUP"] = "1"
@@ -677,6 +822,15 @@ final class TerminalCmdClickUITests: XCTestCase {
         app.launchEnvironment["CMUX_UI_TEST_TERMINAL_CMD_CLICK_DISPLAY_MODE"] = displayMode.rawValue
         app.launchEnvironment["CMUX_UI_TEST_TERMINAL_CMD_CLICK_LINE_FORMAT"] = lineFormat.rawValue
         app.launchEnvironment["CMUX_UI_TEST_OPEN_SUPPORTED_FILES_IN_CMUX"] = openSupportedFilesInCmux ? "1" : "0"
+        if !displaySuffix.isEmpty {
+            app.launchEnvironment["CMUX_UI_TEST_TERMINAL_CMD_CLICK_DISPLAY_SUFFIX"] = displaySuffix
+        }
+        if displayAsAbsolutePath {
+            app.launchEnvironment["CMUX_UI_TEST_TERMINAL_CMD_CLICK_DISPLAY_AS_ABSOLUTE_PATH"] = "1"
+        }
+        if let openMarkdownInCmuxViewer {
+            app.launchEnvironment["CMUX_UI_TEST_OPEN_MARKDOWN_IN_CMUX_VIEWER"] = openMarkdownInCmuxViewer ? "1" : "0"
+        }
         if !linePrefix.isEmpty {
             app.launchEnvironment["CMUX_UI_TEST_TERMINAL_CMD_CLICK_LINE_PREFIX"] = linePrefix
         }
