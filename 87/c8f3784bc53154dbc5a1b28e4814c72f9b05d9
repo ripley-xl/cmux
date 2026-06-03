@@ -1,0 +1,19 @@
+CHANGELOG.fork.md
+  s_f3578f6a03dcde::t_715dbf21616b1a 1-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "87c8f3784bc53154dbc5a1b28e4814c72f9b05d9",
+  "prompts": {},
+  "sessions": {
+    "s_f3578f6a03dcde": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "02dbc319-6ab8-46c8-8b0c-e6fa6634de58",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "okarinhuang <okarinhuang@tencent.com>"
+    }
+  }
+}
