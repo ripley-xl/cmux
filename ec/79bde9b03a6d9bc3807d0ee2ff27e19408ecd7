@@ -1,0 +1,20 @@
+Sources/Workspace.swift
+  s_3c45f1c0840cd7::t_f573f348294840 19551-19561,19567-19569,19574-19576
+  s_3c45f1c0840cd7::t_c7ba061e3d5f43 19631,19635-19644,19650-19652,19657-19659,19672-19674
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "ec79bde9b03a6d9bc3807d0ee2ff27e19408ecd7",
+  "prompts": {},
+  "sessions": {
+    "s_3c45f1c0840cd7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019eb9f7-395b-7032-934b-4f22449a884c",
+        "model": "gpt-5.5"
+      },
+      "human_author": "okarinhuang <okarinhuang@tencent.com>"
+    }
+  }
+}
