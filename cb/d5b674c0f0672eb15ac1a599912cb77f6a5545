@@ -1,0 +1,23 @@
+Sources/Windowing/WindowAppearanceSnapshot.swift
+  s_3c45f1c0840cd7::t_68bc29b7031edd 165-166,169-170,176,188-195,198
+  s_3c45f1c0840cd7::t_7259b9c978b4ae 168
+  s_3c45f1c0840cd7::t_90fa4edb987e00 164,171-172,179
+Sources/GhosttyTerminalView.swift
+  s_3c45f1c0840cd7::t_ad580156f7814f 6852-6854
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "cbd5b674c0f0672eb15ac1a599912cb77f6a5545",
+  "prompts": {},
+  "sessions": {
+    "s_3c45f1c0840cd7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019eb9f7-395b-7032-934b-4f22449a884c",
+        "model": "gpt-5.5"
+      },
+      "human_author": "okarinhuang <okarinhuang@tencent.com>"
+    }
+  }
+}
