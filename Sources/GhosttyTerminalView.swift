@@ -6849,9 +6849,6 @@ final class TerminalSurface: Identifiable, ObservableObject {
             ghostty_surface_set_size(surface, wpx, hpx)
             lastPixelWidth = wpx
             lastPixelHeight = hpx
-            // Resizing can update the PTY/grid without scheduling a present immediately.
-            // Nudge one frame so TUIs repaint expanded cells without waiting for input.
-            ghostty_surface_refresh(surface)
         }
 
         // Let Ghostty continue rendering on its own wakeups for steady-state frames.

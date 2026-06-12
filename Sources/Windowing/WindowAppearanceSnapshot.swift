@@ -161,22 +161,15 @@ struct TerminalSurfaceBackgroundFillPlan {
         sharesWindowBackdrop: Bool,
         usesBonsplitPaneBackdrop: Bool
     ) -> Self {
-        let clampedBackgroundOpacity = WindowAppearanceSnapshot.clampedOpacity(backgroundOpacity)
-        let baseColor = surfaceBackgroundColor ?? defaultBackgroundColor
-        let resolvedColor = baseColor.withAlphaComponent(clampedBackgroundOpacity)
+        let resolvedColor = (surfaceBackgroundColor ?? defaultBackgroundColor)
+            .withAlphaComponent(WindowAppearanceSnapshot.clampedOpacity(backgroundOpacity))
         let owner: TerminalSurfaceBackgroundFillOwner
-        // A translucent terminal over the shared window backdrop can feed old terminal
-        // frames back through the backdrop blur. Paint it pane-locally with a
-        // precomposited opaque fill so the renderer has a stable background.
-        let usesTranslucentSharedWindowBackdrop = sharesWindowBackdrop &&
-            clampedBackgroundOpacity < 0.999
         let usesPaneLocalSurfaceFill = surfaceBackgroundColor != nil &&
             renderingMode.usesWindowHostBackdrop &&
             !usesBonsplitPaneBackdrop
-        let hostLayerColor: NSColor
         if !renderingMode.usesWindowHostBackdrop {
             owner = .ghosttyNativeRenderer
-        } else if usesPaneLocalSurfaceFill || (usesTranslucentSharedWindowBackdrop && !usesBonsplitPaneBackdrop) {
+        } else if usesPaneLocalSurfaceFill {
             owner = .surfaceHostLayer
         } else if !sharesWindowBackdrop && !usesBonsplitPaneBackdrop {
             owner = .surfaceHostLayer
@@ -185,17 +178,9 @@ struct TerminalSurfaceBackgroundFillPlan {
         } else {
             owner = .bonsplitPaneBackdrop
         }
-        if owner == .surfaceHostLayer, usesTranslucentSharedWindowBackdrop {
-            hostLayerColor = WindowAppearanceSnapshot.compositedTerminalColor(
-                backgroundColor: baseColor,
-                opacity: Double(clampedBackgroundOpacity)
-            ).withAlphaComponent(1.0)
-        } else {
-            hostLayerColor = owner == .surfaceHostLayer ? resolvedColor : .clear
-        }
         return Self(
             owner: owner,
-            hostLayerColor: hostLayerColor,
+            hostLayerColor: owner == .surfaceHostLayer ? resolvedColor : .clear,
             clearsSharedWindowBackdrop: usesPaneLocalSurfaceFill && sharesWindowBackdrop
         )
     }
