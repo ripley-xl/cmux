@@ -2,6 +2,1738 @@
   "sourceLanguage": "en",
   "version": "1.0",
   "strings": {
+    "command.auth.signIn.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign In"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サインイン"
+          }
+        }
+      }
+    },
+    "command.auth.signOut.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign Out"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サインアウト"
+          }
+        }
+      }
+    },
+    "command.auth.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Account"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アカウント"
+          }
+        }
+      }
+    },
+    "command.mobileConnect.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobile"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "モバイル"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "移动设备"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "行動裝置"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "모바일"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobilgeräte"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Móvil"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobile"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivi mobili"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobil"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Urządzenia mobilne"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мобильные устройства"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobilni uređaji"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الأجهزة المحمولة"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobil"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivos móveis"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "อุปกรณ์พกพา"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobil"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мобільні пристрої"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ឧបករណ៍ចល័ត"
+          }
+        }
+      }
+    },
+    "command.mobileConnect.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connect iPhone/iPad"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone/iPadを接続"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "连接 iPhone/iPad"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "連接 iPhone/iPad"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone/iPad 연결"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone/iPad verbinden"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectar iPhone/iPad"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connecter l’iPhone/iPad"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connetti iPhone/iPad"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Forbind iPhone/iPad"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Połącz iPhone/iPad"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подключить iPhone/iPad"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poveži iPhone/iPad"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "توصيل iPhone/iPad"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koble til iPhone/iPad"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectar iPhone/iPad"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เชื่อมต่อ iPhone/iPad"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone/iPad’i Bağla"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Підключити iPhone/iPad"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ភ្ជាប់ iPhone/iPad"
+          }
+        }
+      }
+    },
+    "auth.error.invalid_code_short": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid code. Please try again."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コードが無効です。もう一度お試しください。"
+          }
+        }
+      }
+    },
+    "auth.error.network_error": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Network error. Please check your connection."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ネットワークエラーです。接続を確認してください。"
+          }
+        }
+      }
+    },
+    "auth.error.offline": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No internet connection. Connect to Wi-Fi or cellular and try again."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "インターネットに接続されていません。Wi-Fiまたはモバイル回線に接続して、もう一度お試しください。"
+          }
+        }
+      }
+    },
+    "auth.error.server_error": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Something went wrong. Please try again."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "問題が発生しました。もう一度お試しください。"
+          }
+        }
+      }
+    },
+    "auth.error.unauthorized": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session expired. Please sign in again."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッションの有効期限が切れました。もう一度サインインしてください。"
+          }
+        }
+      }
+    },
+    "auth.error.wrong_password": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incorrect email or password."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "メールまたはパスワードが正しくありません。"
+          }
+        }
+      }
+    },
+    "cli.hooks.omp.aborted": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أُلغيَت العملية."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prekinuto."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afbrudt."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abgebrochen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aborted."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Operación cancelada."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opération annulée."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Operazione annullata."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "中止しました。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "បានបោះបង់។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "중단했습니다."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avbrutt."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przerwano."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abortado."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Операция прервана."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ยกเลิกแล้ว"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İptal edildi."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Операцію скасовано."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已中止。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已中止。"
+          }
+        }
+      }
+    },
+    "cli.hooks.omp.alreadyUpToDate": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خطافات OMP محدَّثة بالفعل في %@"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP hookovi su već ažurirani u %@"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP-hooks er allerede opdaterede i %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP-Hooks sind in %@ bereits auf dem neuesten Stand"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP hooks already up to date at %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los hooks de OMP ya están actualizados en %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les hooks OMP sont déjà à jour dans %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gli hook di OMP sono già aggiornati in %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ の OMP フックはすでに最新です"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "hooks របស់ OMP នៅ %@ ទាន់សម័យរួចហើយ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@의 OMP 훅은 이미 최신 상태입니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP-hooks er allerede oppdatert i %@"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hooki OMP są już aktualne w %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Os hooks do OMP já estão atualizados em %@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Хуки OMP в %@ уже актуальны"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ฮุก OMP ที่ %@ เป็นเวอร์ชันล่าสุดอยู่แล้ว"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP kancaları %@ konumunda zaten güncel"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Хуки OMP у %@ вже актуальні"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 中的 OMP hooks 已是最新"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 中的 OMP hooks 已是最新"
+          }
+        }
+      }
+    },
+    "cli.hooks.omp.confirmProceed": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nهل تريد المتابعة؟ [y/N] "
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nNastaviti? [y/N] "
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nFortsæt? [y/N] "
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nFortfahren? [y/N] "
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nProceed? [y/N] "
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\n¿Continuar? [y/N] "
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nContinuer ? [y/N] "
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nProcedere? [y/N] "
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\n続行しますか？ [y/N] "
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nបន្តឬ? [y/N] "
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\n계속하시겠습니까? [y/N] "
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nFortsette? [y/N] "
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nKontynuować? [y/N] "
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nProsseguir? [y/N] "
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nПродолжить? [y/N] "
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nดำเนินการต่อหรือไม่? [y/N] "
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nDevam edilsin mi? [y/N] "
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nПродовжити? [y/N] "
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\n是否继续？ [y/N] "
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\n是否繼續？ [y/N] "
+          }
+        }
+      }
+    },
+    "cli.hooks.omp.error.notCmuxExtension": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ موجود وليس امتداد cmux؛ سيتم تركه كما هو"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ postoji i nije cmux ekstenzija; ostavljam ga netaknutim"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ findes og er ikke en cmux-udvidelse; lader den være"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ existiert und ist keine cmux-Erweiterung; wird unverändert belassen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ exists and is not a cmux extension; leaving it alone"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ existe y no es una extensión de cmux; se dejará intacto"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ existe et n’est pas une extension cmux ; aucun changement n’y sera apporté"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ esiste e non è un'estensione cmux; verrà lasciato invariato"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ は存在しますが cmux 拡張ではありません。そのままにします"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ មានរួចហើយ ហើយមិនមែនជា​ផ្នែកបន្ថែម cmux ទេ; ទុកវាដូចដើម"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@이(가) 존재하지만 cmux 확장이 아니므로 그대로 둡니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ finnes og er ikke en cmux-utvidelse; lar den være i fred"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ istnieje i nie jest rozszerzeniem cmux; pozostawiam bez zmian"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ existe e não é uma extensão do cmux; será deixado como está"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ существует и не является расширением cmux; оставляем без изменений"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ มีอยู่แล้วและไม่ใช่ส่วนขยาย cmux; จะปล่อยไว้ตามเดิม"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ mevcut ve bir cmux uzantısı değil; olduğu gibi bırakılıyor"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ існує і не є розширенням cmux; залишаємо без змін"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 已存在且不是 cmux 扩展；将保持不变"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 已存在且不是 cmux 擴充功能；將維持原樣"
+          }
+        }
+      }
+    },
+    "cli.hooks.omp.error.readFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فشل في قراءة %@"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Čitanje %@ nije uspjelo"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kunne ikke læse %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fehler beim Lesen von %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to read %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo leer %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Échec de la lecture de %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile leggere %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ の読み取りに失敗しました"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "អាន %@ មិនបានសម្រេច"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@을(를) 읽지 못했습니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klarte ikke å lese %@"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się odczytać %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falha ao ler %@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось прочитать %@"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "อ่าน %@ ไม่สำเร็จ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ okunamadı"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не вдалося прочитати %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "读取 %@ 失败"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "讀取 %@ 失敗"
+          }
+        }
+      }
+    },
+    "cli.hooks.omp.installed": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تم تثبيت خطافات OMP في %@"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP hookovi su instalirani u %@"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP-hooks er installeret i %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP-Hooks wurden in %@ installiert"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP hooks installed at %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hooks de OMP instalados en %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hooks OMP installés dans %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hook di OMP installati in %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP フックを %@ にインストールしました"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "បានដំឡើង hooks របស់ OMP នៅ %@"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@에 OMP 훅을 설치했습니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP-hooks er installert i %@"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zainstalowano hooki OMP w %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hooks do OMP instalados em %@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Хуки OMP установлены в %@"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ติดตั้งฮุก OMP ที่ %@ แล้ว"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP kancaları %@ konumuna kuruldu"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Хуки OMP встановлено в %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已在 %@ 安装 OMP hooks"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已在 %@ 安裝 OMP hooks"
+          }
+        }
+      }
+    },
+    "cli.hooks.omp.noneFound": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لم يتم العثور على امتداد OMP cmux في %@"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nijedna OMP cmux ekstenzija nije pronađena u %@"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingen OMP cmux-udvidelse fundet i %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine OMP-cmux-Erweiterung in %@ gefunden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No OMP cmux extension found at %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se encontró ninguna extensión OMP cmux en %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune extension OMP cmux trouvée dans %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna estensione OMP cmux trovata in %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ に OMP cmux 拡張が見つかりません"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "រកមិនឃើញ​ផ្នែកបន្ថែម OMP cmux នៅ %@"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@에서 OMP cmux 확장을 찾을 수 없습니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fant ingen OMP cmux-utvidelse i %@"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie znaleziono rozszerzenia OMP cmux w %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma extensão OMP cmux encontrada em %@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Расширение OMP cmux в %@ не найдено"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่พบส่วนขยาย OMP cmux ที่ %@"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ konumunda OMP cmux uzantısı bulunamadı"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Розширення OMP cmux у %@ не знайдено"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未在 %@ 找到 OMP cmux 扩展"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未在 %@ 找到 OMP cmux 擴充功能"
+          }
+        }
+      }
+    },
+    "cli.hooks.omp.refuseRemoveMissingMarker": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تم رفض إزالة %@: علامة cmux مفقودة"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odbijam uklanjanje %@: nedostaje cmux oznaka"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nægter at fjerne %@: manglende cmux-markør"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ wird nicht entfernt: cmux-Markierung fehlt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refusing to remove %@: missing cmux marker"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se rechaza eliminar %@: falta el marcador de cmux"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suppression de %@ refusée : marqueur cmux manquant"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rimozione di %@ rifiutata: marcatore cmux mancante"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ の削除を拒否しました: cmux マーカーがありません"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "បដិសេធមិនលុប %@៖ បាត់សញ្ញាសម្គាល់ cmux"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 삭제를 거부합니다: cmux 마커가 없습니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nekter å fjerne %@: manglende cmux-markør"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odmowa usunięcia %@: brak znacznika cmux"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recusando remover %@: marcador do cmux ausente"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отказ в удалении %@: отсутствует маркер cmux"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปฏิเสธที่จะลบ %@: ไม่มีเครื่องหมาย cmux"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ kaldırılmayı reddediliyor: cmux işareti eksik"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Відмовлено у видаленні %@: відсутній маркер cmux"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拒绝移除 %@：缺少 cmux 标记"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拒絕移除 %@：缺少 cmux 標記"
+          }
+        }
+      }
+    },
+    "cli.hooks.omp.removed": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تمت إزالة امتداد OMP cmux من %@"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP cmux ekstenzija je uklonjena iz %@"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP cmux-udvidelse blev fjernet fra %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP-cmux-Erweiterung aus %@ entfernt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Removed OMP cmux extension from %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se eliminó la extensión OMP cmux de %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extension OMP cmux supprimée de %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estensione OMP cmux rimossa da %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ から OMP cmux 拡張を削除しました"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "បានលុប​ផ្នែកបន្ថែម OMP cmux ចេញពី %@"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@에서 OMP cmux 확장을 제거했습니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fjernet OMP cmux-utvidelse fra %@"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usunięto rozszerzenie OMP cmux z %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extensão OMP cmux removida de %@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Расширение OMP cmux удалено из %@"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบส่วนขยาย OMP cmux ออกจาก %@ แล้ว"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OMP cmux uzantısı %@ konumundan kaldırıldı"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Розширення OMP cmux видалено з %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已从 %@ 移除 OMP cmux 扩展"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已從 %@ 移除 OMP cmux 擴充功能"
+          }
+        }
+      }
+    },
+    "markdown.typography.font": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Font"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォント"
+          }
+        }
+      }
+    },
+    "markdown.typography.size": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Size"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サイズ"
+          }
+        }
+      }
+    },
+    "markdown.typography.maxWidth": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Max Width"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最大幅"
+          }
+        }
+      }
+    },
+    "markdown.font.system": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "システム"
+          }
+        }
+      }
+    },
+    "markdown.maxWidth.field": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Width"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "幅"
+          }
+        }
+      }
+    },
+    "markdown.maxWidth.unit": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "px"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "px"
+          }
+        }
+      }
+    },
+    "markdown.toolbar.fontSize": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Font Size"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォントサイズ"
+          }
+        }
+      }
+    },
+    "markdown.typography.resetBuiltIn": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset to built-in defaults"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "組み込みデフォルトにリセット"
+          }
+        }
+      }
+    },
+    "markdown.fontSize.field": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Size"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サイズ"
+          }
+        }
+      }
+    },
+    "markdown.fontSize.unit": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pt"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pt"
+          }
+        }
+      }
+    },
+    "markdown.fontSize.reset": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset to default"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デフォルトにリセット"
+          }
+        }
+      }
+    },
+    "markdown.fontSize.setDefault": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set as default for new viewers"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今後のビューアのデフォルトに設定"
+          }
+        }
+      }
+    },
     "shortcut.markdownZoomIn.label": {
       "extractionState": "manual",
       "localizations": {
@@ -280,6 +2012,125 @@
         }
       }
     },
+    "settings.app.markdownFontFamily": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Markdown Viewer Font"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Markdown ビューアのフォント"
+          }
+        }
+      }
+    },
+    "settings.app.markdownFontFamily.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default body font family for newly opened markdown viewers. Leave empty for the system markdown font stack."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新しく開く Markdown ビューアの本文フォントファミリーです。空のままにするとシステムの Markdown フォントスタックを使います。"
+          }
+        }
+      }
+    },
+    "settings.app.markdownFontFamily.placeholder": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "システム"
+          }
+        }
+      }
+    },
+    "settings.app.markdownMaxWidth": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Markdown Viewer Max Width"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Markdown ビューアの最大幅"
+          }
+        }
+      }
+    },
+    "settings.app.markdownMaxWidth.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default maximum reading column width, in CSS pixels, for newly opened markdown viewers."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新しく開く Markdown ビューアの読み取りカラム最大幅（CSS ピクセル単位）です。"
+          }
+        }
+      }
+    },
+    "settings.app.fileEditorWordWrap": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File Editor Word Wrap"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイルエディタの行折り返し"
+          }
+        }
+      }
+    },
+    "settings.app.fileEditorWordWrap.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wrap long lines at the editor's right edge instead of scrolling horizontally. Applies to the plain-text file editor."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "長い行を横スクロールせずにエディタの右端で折り返します。プレーンテキストのファイルエディタに適用されます。"
+          }
+        }
+      }
+    },
     "settings.search.alias.setting.app.markdown-font-size": {
       "extractionState": "manual",
       "localizations": {
@@ -293,6 +2144,57 @@
           "stringUnit": {
             "state": "translated",
             "value": "markdown.fontSize Markdown マークダウン ビューア フォントサイズ 文字サイズ ズーム 拡大 縮小 大きく 小さく 既定 ポイント font size zoom"
+          }
+        }
+      }
+    },
+    "settings.search.alias.setting.app.markdown-font-family": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "markdown.fontFamily md markdown viewer font font-family family typeface system stack custom"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "markdown.fontFamily Markdown マークダウン ビューア フォント フォントファミリー 書体 システム カスタム font family typeface"
+          }
+        }
+      }
+    },
+    "settings.search.alias.setting.app.markdown-max-width": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "markdown.maxWidth md markdown viewer max width column reading line length pixels px narrow wide"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "markdown.maxWidth Markdown マークダウン ビューア 最大幅 幅 カラム 読み取り 行長 ピクセル px 狭い 広い"
+          }
+        }
+      }
+    },
+    "settings.search.alias.setting.app.file-editor-word-wrap": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "fileEditor.wordWrap file editor word wrap soft wrap reflow lines text horizontal scroll preview"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "fileEditor.wordWrap ファイル エディタ 行折り返し ワードラップ 折り返し 改行 テキスト 横スクロール プレビュー"
           }
         }
       }
@@ -823,26 +2725,126 @@
     "remotePTYAttach.error.allocationDiagnostic": {
       "comment": "Passthrough of the remote daemon's dynamic PTY-allocation diagnostic (device paths, devpts mount options, remediation). The detail is locale-invariant technical text, so every locale is just the substitution placeholder.",
       "localizations": {
-        "en": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "ja": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "zh-Hans": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "zh-Hant": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "ko": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "de": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "es": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "fr": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "it": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "da": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "pl": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "ru": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "bs": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "ar": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "nb": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "pt-BR": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "th": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "tr": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "uk": { "stringUnit": { "state": "translated", "value": "%@" } },
-        "km": { "stringUnit": { "state": "translated", "value": "%@" } }
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        }
       }
     },
     "remotePTYAttach.error.attachFailed": {
@@ -2744,6 +4746,131 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copied git apply command"
+          }
+        }
+      }
+    },
+    "diffViewer.copyFailedGitApplyCommand": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعذر نسخ أمر git apply."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nije moguće kopirati naredbu git apply."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kunne ikke kopiere git apply-kommandoen."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der git apply-Befehl konnte nicht kopiert werden."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not copy git apply command."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo copiar el comando git apply."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de copier la commande git apply."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile copiare il comando git apply."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "git apply コマンドをコピーできませんでした。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "មិនអាចចម្លងពាក្យបញ្ជា git apply បានទេ។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "git apply 명령을 복사할 수 없습니다."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kunne ikke kopiere git apply-kommandoen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się skopiować polecenia git apply."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não foi possível copiar o comando git apply."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось скопировать команду git apply."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่สามารถคัดลอกคำสั่ง git apply ได้"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "git apply komutu kopyalanamadı."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не вдалося скопіювати команду git apply."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法复制 git apply 命令。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無法複製 git apply 指令。"
           }
         }
       }
@@ -10691,6 +12818,131 @@
         }
       }
     },
+    "cli.help.ssh": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nأنشئ مساحة عمل جديدة، وعلّمها كـ remote-SSH، وابدأ جلسة SSH داخلها.\nسينشئ cmux أيضًا نقطة نهاية وكيل SSH محلية حتى تخرج حركة مرور المتصفح من المضيف البعيد.\n\nFlags:\n  --name <title>          عنوان اختياري لمساحة العمل\n  --port <n>              منفذ SSH\n  --identity <path>       مسار ملف هوية SSH\n  -A, --forward-agent     يمرر وكيل SSH الخاص بالمستدعي؛ ويحترم أيضًا ForwardAgent yes من ssh_config\n  -a, --no-forward-agent  يعطّل تمرير وكيل SSH لمساحة العمل هذه\n  --ssh-option <opt>      خيار SSH -o إضافي (قابل للتكرار)\n  --window <id|ref|index> النافذة الهدف لمساحة العمل المُدارة\n  --no-focus              ينشئ مساحة العمل من دون الانتقال إليها\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nKreira novi workspace, označava ga kao remote-SSH i pokreće SSH sesiju u tom workspaceu.\ncmux će također uspostaviti lokalnu SSH proxy krajnju tačku kako bi promet preglednika izlazio s udaljenog hosta.\n\nFlags:\n  --name <title>          Opcionalni naslov workspacea\n  --port <n>              SSH port\n  --identity <path>       Putanja do SSH identity datoteke\n  -A, --forward-agent     Prosljeđuje SSH agent pozivaoca; poštuje i ForwardAgent yes iz ssh_config\n  -a, --no-forward-agent  Onemogućava prosljeđivanje SSH agenta za ovaj workspace\n  --ssh-option <opt>      Dodatna SSH -o opcija (može se ponavljati)\n  --window <id|ref|index> Ciljni prozor za upravljani workspace\n  --no-focus              Kreira workspace bez prelaska na njega\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nOpret et nyt arbejdsområde, markér det som remote-SSH, og start en SSH-session i det arbejdsområde.\ncmux opretter også et lokalt SSH-proxyendepunkt, så browsertrafik kan gå ud fra den eksterne vært.\n\nFlags:\n  --name <title>          Valgfri titel på arbejdsområdet\n  --port <n>              SSH-port\n  --identity <path>       Sti til SSH-identitetsfil\n  -A, --forward-agent     Videresend kalderens SSH-agent; respekterer også ForwardAgent yes fra ssh_config\n  -a, --no-forward-agent  Deaktiver SSH-agentvideresendelse for dette arbejdsområde\n  --ssh-option <opt>      Ekstra SSH -o-indstilling (kan gentages)\n  --window <id|ref|index> Målvindue for det administrerede arbejdsområde\n  --no-focus              Opret arbejdsområdet uden at skifte til det\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nErstellt einen neuen Workspace, markiert ihn als remote-SSH und startet darin eine SSH-Sitzung.\ncmux richtet außerdem einen lokalen SSH-Proxy-Endpunkt ein, damit Browserverkehr vom Remote-Host ausgeht.\n\nFlags:\n  --name <title>          Optionaler Workspace-Titel\n  --port <n>              SSH-Port\n  --identity <path>       Pfad zur SSH-Identitätsdatei\n  -A, --forward-agent     Leitet den SSH-Agent des Aufrufers weiter; beachtet auch ForwardAgent yes aus ssh_config\n  -a, --no-forward-agent  Deaktiviert SSH-Agent-Weiterleitung für diesen Workspace\n  --ssh-option <opt>      Zusätzliche SSH-Option -o (wiederholbar)\n  --window <id|ref|index> Zielfenster für den verwalteten Workspace\n  --no-focus              Workspace erstellen, ohne zu ihm zu wechseln\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nCreate a new workspace, mark it as remote-SSH, and start an SSH session in that workspace.\ncmux will also establish a local SSH proxy endpoint so browser traffic can egress from the remote host.\n\nFlags:\n  --name <title>          Optional workspace title\n  --port <n>              SSH port\n  --identity <path>       SSH identity file path\n  -A, --forward-agent     Forward the caller's SSH agent; also honors ForwardAgent yes from ssh_config\n  -a, --no-forward-agent  Disable SSH agent forwarding for this workspace\n  --ssh-option <opt>      Extra SSH -o option (repeatable)\n  --window <id|ref|index> Target window for the managed workspace\n  --no-focus              Create workspace without switching to it\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nCrea un nuevo espacio de trabajo, márcalo como remote-SSH e inicia una sesión SSH en ese espacio.\ncmux también establecerá un punto final de proxy SSH local para que el tráfico del navegador salga desde el host remoto.\n\nFlags:\n  --name <title>          Título opcional del espacio de trabajo\n  --port <n>              Puerto SSH\n  --identity <path>       Ruta del archivo de identidad SSH\n  -A, --forward-agent     Reenvía el agente SSH del proceso que llama; también respeta ForwardAgent yes de ssh_config\n  -a, --no-forward-agent  Desactiva el reenvío del agente SSH para este espacio de trabajo\n  --ssh-option <opt>      Opción SSH -o adicional (repetible)\n  --window <id|ref|index> Ventana de destino para el espacio de trabajo administrado\n  --no-focus              Crea el espacio de trabajo sin cambiar a él\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nCrée un nouvel espace de travail, le marque comme remote-SSH et démarre une session SSH dans cet espace.\ncmux établira aussi un point de terminaison proxy SSH local afin que le trafic du navigateur sorte depuis l’hôte distant.\n\nFlags:\n  --name <title>          Titre facultatif de l’espace de travail\n  --port <n>              Port SSH\n  --identity <path>       Chemin du fichier d’identité SSH\n  -A, --forward-agent     Transfère l’agent SSH de l’appelant ; respecte aussi ForwardAgent yes depuis ssh_config\n  -a, --no-forward-agent  Désactive le transfert d’agent SSH pour cet espace de travail\n  --ssh-option <opt>      Option SSH -o supplémentaire (répétable)\n  --window <id|ref|index> Fenêtre cible pour l’espace de travail géré\n  --no-focus              Crée l’espace de travail sans basculer dessus\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nCrea un nuovo workspace, contrassegnalo come remote-SSH e avvia una sessione SSH in quel workspace.\ncmux creerà anche un endpoint proxy SSH locale in modo che il traffico del browser esca dall'host remoto.\n\nFlags:\n  --name <title>          Titolo opzionale del workspace\n  --port <n>              Porta SSH\n  --identity <path>       Percorso del file di identità SSH\n  -A, --forward-agent     Inoltra l'agente SSH del chiamante; rispetta anche ForwardAgent yes da ssh_config\n  -a, --no-forward-agent  Disattiva l'inoltro dell'agente SSH per questo workspace\n  --ssh-option <opt>      Opzione SSH -o aggiuntiva (ripetibile)\n  --window <id|ref|index> Finestra di destinazione per il workspace gestito\n  --no-focus              Crea il workspace senza passarvi\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\n新しいワークスペースを作成し、remote-SSH としてマークして、そのワークスペースで SSH セッションを開始します。\ncmux はローカル SSH プロキシエンドポイントも確立するため、ブラウザトラフィックはリモートホストから送信されます。\n\nFlags:\n  --name <title>          任意のワークスペースタイトル\n  --port <n>              SSH ポート\n  --identity <path>       SSH identity ファイルパス\n  -A, --forward-agent     呼び出し元の SSH エージェントを転送します。ssh_config の ForwardAgent yes も尊重します\n  -a, --no-forward-agent  このワークスペースでは SSH エージェント転送を無効にします\n  --ssh-option <opt>      追加の SSH -o オプション（繰り返し可）\n  --window <id|ref|index> 管理対象ワークスペースのターゲットウィンドウ\n  --no-focus              ワークスペースを作成しますが切り替えません\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nបង្កើត workspace ថ្មី សម្គាល់វាជា remote-SSH ហើយចាប់ផ្តើមសម័យ SSH នៅក្នុង workspace នោះ។\ncmux ក៏នឹងបង្កើតចំណុចបញ្ចប់ SSH proxy មូលដ្ឋាន ដើម្បីឱ្យចរាចរណ៍ browser ចេញពី host ពីចម្ងាយ។\n\nFlags:\n  --name <title>          ចំណងជើង workspace ស្រេចចិត្ត\n  --port <n>              ច្រក SSH\n  --identity <path>       ផ្លូវឯកសារ SSH identity\n  -A, --forward-agent     បញ្ជូនបន្ត SSH agent របស់អ្នកហៅ; ក៏គោរព ForwardAgent yes ពី ssh_config\n  -a, --no-forward-agent  បិទការបញ្ជូនបន្ត SSH agent សម្រាប់ workspace នេះ\n  --ssh-option <opt>      ជម្រើស SSH -o បន្ថែម (អាចប្រើម្តងហើយម្តងទៀត)\n  --window <id|ref|index> បង្អួចគោលដៅសម្រាប់ workspace ដែលបានគ្រប់គ្រង\n  --no-focus              បង្កើត workspace ដោយមិនប្តូរទៅវា\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\n새 워크스페이스를 만들고 remote-SSH로 표시한 뒤, 그 워크스페이스에서 SSH 세션을 시작합니다.\ncmux는 브라우저 트래픽이 원격 호스트에서 나가도록 로컬 SSH 프록시 엔드포인트도 설정합니다.\n\nFlags:\n  --name <title>          선택적 워크스페이스 제목\n  --port <n>              SSH 포트\n  --identity <path>       SSH identity 파일 경로\n  -A, --forward-agent     호출자의 SSH 에이전트를 전달합니다. ssh_config의 ForwardAgent yes도 존중합니다\n  -a, --no-forward-agent  이 워크스페이스에서 SSH 에이전트 전달을 비활성화합니다\n  --ssh-option <opt>      추가 SSH -o 옵션(반복 가능)\n  --window <id|ref|index> 관리되는 워크스페이스의 대상 창\n  --no-focus              워크스페이스를 만들되 전환하지 않습니다\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nOpprett et nytt arbeidsområde, merk det som remote-SSH, og start en SSH-økt i arbeidsområdet.\ncmux oppretter også et lokalt SSH-proxyendepunkt slik at nettlesertrafikk kan gå ut fra den eksterne verten.\n\nFlags:\n  --name <title>          Valgfri tittel på arbeidsområdet\n  --port <n>              SSH-port\n  --identity <path>       Sti til SSH-identitetsfil\n  -A, --forward-agent     Videresender innkallerens SSH-agent; respekterer også ForwardAgent yes fra ssh_config\n  -a, --no-forward-agent  Deaktiver SSH-agentvideresending for dette arbeidsområdet\n  --ssh-option <opt>      Ekstra SSH -o-alternativ (kan gjentas)\n  --window <id|ref|index> Målvindu for det administrerte arbeidsområdet\n  --no-focus              Opprett arbeidsområdet uten å bytte til det\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nUtwórz nowy workspace, oznacz go jako remote-SSH i uruchom w nim sesję SSH.\ncmux utworzy także lokalny punkt końcowy proxy SSH, aby ruch przeglądarki wychodził ze zdalnego hosta.\n\nFlags:\n  --name <title>          Opcjonalny tytuł workspace\n  --port <n>              Port SSH\n  --identity <path>       Ścieżka pliku tożsamości SSH\n  -A, --forward-agent     Przekazuje agenta SSH wywołującego; respektuje też ForwardAgent yes z ssh_config\n  -a, --no-forward-agent  Wyłącza przekazywanie agenta SSH dla tego workspace\n  --ssh-option <opt>      Dodatkowa opcja SSH -o (można powtarzać)\n  --window <id|ref|index> Okno docelowe dla zarządzanego workspace\n  --no-focus              Tworzy workspace bez przełączania się do niego\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nCrie um novo workspace, marque-o como remote-SSH e inicie uma sessão SSH nesse workspace.\nO cmux também estabelecerá um endpoint de proxy SSH local para que o tráfego do navegador saia pelo host remoto.\n\nFlags:\n  --name <title>          Título opcional do workspace\n  --port <n>              Porta SSH\n  --identity <path>       Caminho do arquivo de identidade SSH\n  -A, --forward-agent     Encaminha o agente SSH do chamador; também respeita ForwardAgent yes do ssh_config\n  -a, --no-forward-agent  Desativa o encaminhamento do agente SSH para este workspace\n  --ssh-option <opt>      Opção SSH -o extra (repetível)\n  --window <id|ref|index> Janela de destino para o workspace gerenciado\n  --no-focus              Cria o workspace sem alternar para ele\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nСоздает новый workspace, помечает его как remote-SSH и запускает в нем SSH-сеанс.\ncmux также создаст локальную конечную точку SSH-прокси, чтобы трафик браузера выходил с удаленного хоста.\n\nFlags:\n  --name <title>          Необязательный заголовок workspace\n  --port <n>              SSH-порт\n  --identity <path>       Путь к файлу идентификации SSH\n  -A, --forward-agent     Пересылает SSH-агент вызывающего процесса; также учитывает ForwardAgent yes из ssh_config\n  -a, --no-forward-agent  Отключает пересылку SSH-агента для этого workspace\n  --ssh-option <opt>      Дополнительная опция SSH -o (можно повторять)\n  --window <id|ref|index> Целевое окно для управляемого workspace\n  --no-focus              Создает workspace без переключения на него\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nสร้าง workspace ใหม่ ทำเครื่องหมายเป็น remote-SSH และเริ่มเซสชัน SSH ใน workspace นั้น\ncmux จะตั้งค่าปลายทาง SSH proxy ภายในเครื่องด้วย เพื่อให้ทราฟฟิกของเบราว์เซอร์ออกจากโฮสต์ระยะไกล\n\nFlags:\n  --name <title>          ชื่อ workspace ที่ระบุได้\n  --port <n>              พอร์ต SSH\n  --identity <path>       พาธไฟล์ SSH identity\n  -A, --forward-agent     ส่งต่อ SSH agent ของผู้เรียก และเคารพ ForwardAgent yes จาก ssh_config ด้วย\n  -a, --no-forward-agent  ปิดการส่งต่อ SSH agent สำหรับ workspace นี้\n  --ssh-option <opt>      ตัวเลือก SSH -o เพิ่มเติม (ระบุซ้ำได้)\n  --window <id|ref|index> หน้าต่างเป้าหมายสำหรับ workspace ที่จัดการ\n  --no-focus              สร้าง workspace โดยไม่สลับไปยัง workspace นั้น\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nYeni bir workspace oluşturur, onu remote-SSH olarak işaretler ve bu workspace içinde bir SSH oturumu başlatır.\ncmux ayrıca tarayıcı trafiğinin uzak hosttan çıkabilmesi için yerel bir SSH proxy uç noktası kurar.\n\nFlags:\n  --name <title>          İsteğe bağlı workspace başlığı\n  --port <n>              SSH portu\n  --identity <path>       SSH identity dosya yolu\n  -A, --forward-agent     Çağıranın SSH agent'ını iletir; ssh_config içindeki ForwardAgent yes ayarını da dikkate alır\n  -a, --no-forward-agent  Bu workspace için SSH agent iletmeyi devre dışı bırakır\n  --ssh-option <opt>      Ek SSH -o seçeneği (tekrarlanabilir)\n  --window <id|ref|index> Yönetilen workspace için hedef pencere\n  --no-focus              Workspace'i ona geçmeden oluşturur\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\nСтворює новий workspace, позначає його як remote-SSH і запускає в ньому SSH-сеанс.\ncmux також створить локальну кінцеву точку SSH-проксі, щоб трафік браузера виходив із віддаленого хоста.\n\nFlags:\n  --name <title>          Необов’язкова назва workspace\n  --port <n>              SSH-порт\n  --identity <path>       Шлях до файлу ідентифікації SSH\n  -A, --forward-agent     Пересилає SSH-агент процесу-викликача; також враховує ForwardAgent yes із ssh_config\n  -a, --no-forward-agent  Вимикає пересилання SSH-агента для цього workspace\n  --ssh-option <opt>      Додаткова опція SSH -o (можна повторювати)\n  --window <id|ref|index> Цільове вікно для керованого workspace\n  --no-focus              Створює workspace без перемикання на нього\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\n创建一个新工作区，将其标记为 remote-SSH，并在该工作区中启动 SSH 会话。\ncmux 还会建立本地 SSH 代理端点，使浏览器流量可以从远程主机发出。\n\nFlags:\n  --name <title>          可选的工作区标题\n  --port <n>              SSH 端口\n  --identity <path>       SSH identity 文件路径\n  -A, --forward-agent     转发调用方的 SSH agent；也会遵循 ssh_config 中的 ForwardAgent yes\n  -a, --no-forward-agent  为此工作区禁用 SSH agent 转发\n  --ssh-option <opt>      额外的 SSH -o 选项（可重复）\n  --window <id|ref|index> 托管工作区的目标窗口\n  --no-focus              创建工作区但不切换到它\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\n建立新的工作區，將其標記為 remote-SSH，並在該工作區中啟動 SSH 工作階段。\ncmux 也會建立本機 SSH 代理端點，讓瀏覽器流量可以從遠端主機送出。\n\nFlags:\n  --name <title>          選用的工作區標題\n  --port <n>              SSH 連接埠\n  --identity <path>       SSH identity 檔案路徑\n  -A, --forward-agent     轉送呼叫端的 SSH agent；也會遵循 ssh_config 中的 ForwardAgent yes\n  -a, --no-forward-agent  對此工作區停用 SSH agent 轉送\n  --ssh-option <opt>      額外的 SSH -o 選項（可重複）\n  --window <id|ref|index> 受管理工作區的目標視窗\n  --no-focus              建立工作區但不切換到該工作區\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        }
+      }
+    },
     "cli.reorderWorkspaces.error.emptyOrder": {
       "extractionState": "manual",
       "localizations": {
@@ -11566,6 +13818,380 @@
         }
       }
     },
+    "socket.sidebar.custom.invalidName": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sidebar name must not be empty."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サイドバー名は空にできません。"
+          }
+        }
+      }
+    },
+    "socket.sidebar.custom.missing": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sidebar file is missing."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サイドバーファイルが見つかりません。"
+          }
+        }
+      }
+    },
+    "socket.sidebar.custom.selectMissingName": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select requires a sidebar name."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選択するにはサイドバー名が必要です。"
+          }
+        }
+      }
+    },
+    "sidebar.custom.error": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sidebar error"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サイドバーエラー"
+          }
+        }
+      }
+    },
+    "sidebar.custom.missing": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sidebar file is empty or missing."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サイドバーファイルが空、または見つかりません。"
+          }
+        }
+      }
+    },
+    "sidebar.custom.noView": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No supported SwiftUI view found."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "対応している SwiftUI ビューが見つかりません。"
+          }
+        }
+      }
+    },
+    "sidebar.custom.validation.decodeFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to decode sidebar JSON."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サイドバー JSON のデコードに失敗しました。"
+          }
+        }
+      }
+    },
+    "sidebar.custom.validation.fileMissing": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sidebar file is missing."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サイドバーファイルが見つかりません。"
+          }
+        }
+      }
+    },
+    "sidebar.custom.validation.invalidJSON": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid JSON at %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ の JSON が無効です"
+          }
+        }
+      }
+    },
+    "sidebar.custom.validation.missingKey": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Missing key '%@' at %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%2$@ にキー '%1$@' がありません"
+          }
+        }
+      }
+    },
+    "sidebar.custom.validation.missingValue": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Missing value at %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ に値がありません"
+          }
+        }
+      }
+    },
+    "sidebar.custom.validation.readFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to read sidebar file."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サイドバーファイルの読み込みに失敗しました。"
+          }
+        }
+      }
+    },
+    "sidebar.custom.validation.rootPath": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "root"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ルート"
+          }
+        }
+      }
+    },
+    "sidebar.custom.validation.typeMismatch": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Type mismatch at %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ の型が一致しません"
+          }
+        }
+      }
+    },
+    "cli.tmuxCompat.respawnPane.requiresForce": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "respawn-pane requires -k in cmux tmux compatibility mode"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux の tmux 互換モードでは respawn-pane に -k が必要です"
+          }
+        }
+      }
+    },
+    "rpc.v2.surface.respawn.failed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to respawn surface"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サーフェスを再起動できませんでした"
+          }
+        }
+      }
+    },
+    "rpc.v2.surface.respawn.invalidFocus": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Missing or invalid focus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "focus が指定されていないか無効です"
+          }
+        }
+      }
+    },
+    "rpc.v2.surface.respawn.noFocusedSurface": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No focused surface"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォーカス中のサーフェスがありません"
+          }
+        }
+      }
+    },
+    "rpc.v2.surface.respawn.surfaceNotFoundForId": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Surface not found for the given surface_id"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "指定された surface_id のサーフェスが見つかりません"
+          }
+        }
+      }
+    },
+    "rpc.v2.surface.respawn.surfaceNotTerminal": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Surface is not a terminal"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サーフェスはターミナルではありません"
+          }
+        }
+      }
+    },
+    "rpc.v2.surface.respawn.tabManagerUnavailable": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unable to access the target workspace"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "対象のワークスペースにアクセスできません"
+          }
+        }
+      }
+    },
+    "rpc.v2.surface.respawn.workspaceNotFound": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Workspace not found"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ワークスペースが見つかりません"
+          }
+        }
+      }
+    },
     "socket.notification.dismissSelectorRequired": {
       "extractionState": "manual",
       "localizations": {
@@ -11681,6 +14307,131 @@
           "stringUnit": {
             "state": "translated",
             "value": "通知の移動先が見つかりません"
+          }
+        }
+      }
+    },
+    "socket.workspace.unsupportedWindowParam": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "المعامل `window` غير مدعوم؛ استخدم `window_id` مع UUID للنافذة أو مرجع من `window.list`."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parametar `window` nije podržan; koristite `window_id` s UUID-om prozora ili referencom iz `window.list`."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parameteren `window` understøttes ikke; brug `window_id` med et vindues-UUID eller en reference fra `window.list`."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht unterstützter Parameter `window`; verwenden Sie `window_id` mit einer Fenster-UUID oder Referenz aus `window.list`."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unsupported parameter `window`; use `window_id` with a window UUID or ref from `window.list`."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parámetro `window` no admitido; usa `window_id` con un UUID de ventana o una referencia de `window.list`."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paramètre `window` non pris en charge; utilisez `window_id` avec un UUID de fenêtre ou une référence de `window.list`."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parametro `window` non supportato; usa `window_id` con un UUID finestra o un riferimento da `window.list`."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サポートされていないパラメータ `window` です。`window.list` のウィンドウ UUID または参照を指定して `window_id` を使用してください。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ប៉ារ៉ាម៉ែត្រ `window` មិនត្រូវបានគាំទ្រទេ; ប្រើ `window_id` ជាមួយ UUID របស់បង្អួច ឬការយោងពី `window.list`។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "지원되지 않는 매개변수 `window`입니다. `window.list`의 창 UUID 또는 참조와 함께 `window_id`를 사용하세요."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parameteren `window` støttes ikke; bruk `window_id` med en vindus-UUID eller referanse fra `window.list`."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parametr `window` nie jest obsługiwany; użyj `window_id` z UUID okna lub odwołaniem z `window.list`."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parâmetro `window` sem suporte; use `window_id` com um UUID de janela ou referência de `window.list`."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Параметр `window` не поддерживается; используйте `window_id` с UUID окна или ссылкой из `window.list`."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่รองรับพารามิเตอร์ `window`; ใช้ `window_id` พร้อม UUID ของหน้าต่างหรือการอ้างอิงจาก `window.list`"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "`window` parametresi desteklenmiyor; `window_id` değerini `window.list` içindeki bir pencere UUID'si veya başvuruyla kullanın."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Параметр `window` не підтримується; використовуйте `window_id` з UUID вікна або посиланням із `window.list`."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不支持参数 `window`；请使用 `window_id`，并传入来自 `window.list` 的窗口 UUID 或引用。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不支援參數 `window`；請使用 `window_id`，並傳入來自 `window.list` 的視窗 UUID 或參照。"
           }
         }
       }
@@ -27337,6 +30088,1006 @@
         }
       }
     },
+    "browser.focusMode.active": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "وضع التركيز"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Način fokusa"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fokustilstand"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fokusmodus"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus Mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modo de enfoque"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mode focus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modalità focus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォーカスモード"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "របៀបផ្ដោតអារម្មណ៍"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "집중 모드"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fokusmodus"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb skupienia"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modo de foco"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Режим фокусировки"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "โหมดโฟกัส"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odak modu"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Режим фокусування"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "专注模式"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "專注模式"
+          }
+        }
+      }
+    },
+    "browser.focusMode.armed": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اضغط Esc مرة أخرى للخروج"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc ponovo za izlaz"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc igen for at afslutte"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erneut Esc zum Beenden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc again to exit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc otra vez para salir"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Échap à nouveau pour quitter"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc di nuovo per uscire"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "もう一度Escで終了"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ចុច Esc ម្ដងទៀតដើម្បីចេញ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "종료하려면 Esc 다시"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc igjen for å avslutte"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc ponownie, aby wyjść"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc novamente para sair"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc ещё раз для выхода"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กด Esc อีกครั้งเพื่อออก"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çıkmak için tekrar Esc"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc ще раз, щоб вийти"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再次按 Esc 退出"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再次按 Esc 退出"
+          }
+        }
+      }
+    },
+    "browser.focusMode.context.enter": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تفعيل وضع تركيز المتصفح"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uđi u način fokusa preglednika"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktivér browser-fokustilstand"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser-Fokusmodus aktivieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter Browser Focus Mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar modo de enfoque del navegador"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer le mode focus du navigateur"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attiva la modalità focus del browser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザフォーカスモードに入る"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "បើករបៀបផ្ដោតអារម្មណ៍កម្មវិធីរុករក"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "브라우저 집중 모드 시작"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktiver nettleser-fokusmodus"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz tryb skupienia przeglądarki"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativar modo de foco do navegador"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включить режим фокусировки браузера"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เข้าสู่โหมดโฟกัสเบราว์เซอร์"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarayıcı odak modunu aç"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Увімкнути режим фокусування браузера"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "进入浏览器专注模式"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進入瀏覽器專注模式"
+          }
+        }
+      }
+    },
+    "browser.focusMode.context.exit": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إنهاء وضع تركيز المتصفح"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izađi iz načina fokusa preglednika"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afslut browser-fokustilstand"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser-Fokusmodus beenden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exit Browser Focus Mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salir del modo de enfoque del navegador"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitter le mode focus du navigateur"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esci dalla modalità focus del browser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザフォーカスモードを終了"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ចេញពីរបៀបផ្ដោតអារម្មណ៍កម្មវិធីរុករក"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "브라우저 집중 모드 종료"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avslutt nettleser-fokusmodus"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyłącz tryb skupienia przeglądarki"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sair do modo de foco do navegador"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выйти из режима фокусировки браузера"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ออกจากโหมดโฟกัสเบราว์เซอร์"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarayıcı odak modundan çık"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вийти з режиму фокусування браузера"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "退出浏览器专注模式"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "退出瀏覽器專注模式"
+          }
+        }
+      }
+    },
+    "browser.focusMode.enter.help": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تفعيل وضع تركيز المتصفح"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uđi u način fokusa preglednika"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktivér browser-fokustilstand"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser-Fokusmodus aktivieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter browser focus mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar modo de enfoque del navegador"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer le mode focus du navigateur"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attiva la modalità focus del browser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザフォーカスモードに入る"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "បើករបៀបផ្ដោតអារម្មណ៍កម្មវិធីរុករក"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "브라우저 집중 모드 시작"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktiver nettleser-fokusmodus"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz tryb skupienia przeglądarki"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativar modo de foco do navegador"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включить режим фокусировки браузера"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เข้าสู่โหมดโฟกัสเบราว์เซอร์"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarayıcı odak modunu aç"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Увімкнути режим фокусування браузера"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "进入浏览器专注模式"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進入瀏覽器專注模式"
+          }
+        }
+      }
+    },
+    "browser.focusMode.exit.help": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إنهاء وضع تركيز المتصفح"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izađi iz načina fokusa preglednika"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afslut browser-fokustilstand"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser-Fokusmodus beenden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exit browser focus mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salir del modo de enfoque del navegador"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitter le mode focus du navigateur"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esci dalla modalità focus del browser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザフォーカスモードを終了"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ចេញពីរបៀបផ្ដោតអារម្មណ៍កម្មវិធីរុករក"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "브라우저 집중 모드 종료"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avslutt nettleser-fokusmodus"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyłącz tryb skupienia przeglądarki"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sair do modo de foco do navegador"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выйти из режима фокусировки браузера"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ออกจากโหมดโฟกัสเบราว์เซอร์"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarayıcı odak modundan çık"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вийти з режиму фокусування браузера"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "退出浏览器专注模式"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "退出瀏覽器專注模式"
+          }
+        }
+      }
+    },
+    "browser.focusMode.helpWithShortcut.format": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (%@)"
+          }
+        }
+      }
+    },
+    "browser.focusMode.shortcutHint": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc Esc"
+          }
+        }
+      }
+    },
     "browser.contextMenu.openLinkInDefaultBrowser": {
       "extractionState": "manual",
       "localizations": {
@@ -30873,6 +34624,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "再読み込み"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ផ្ទុកឡើងវិញ"
           }
         },
         "zh-Hans": {
@@ -34640,6 +38397,12 @@
             "value": "Focus Address Bar"
           }
         },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ផ្ដោតលើរបារអាសយដ្ឋាន"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -34746,6 +38509,256 @@
           "stringUnit": {
             "state": "translated",
             "value": "Фокус на адресному рядку"
+          }
+        }
+      }
+    },
+    "command.browserFocusMode.enter.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تفعيل وضع تركيز المتصفح"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uđi u način fokusa preglednika"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktivér browser-fokustilstand"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser-Fokusmodus aktivieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter Browser Focus Mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar modo de enfoque del navegador"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer le mode focus du navigateur"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attiva la modalità focus del browser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザフォーカスモードに入る"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "បើករបៀបផ្ដោតអារម្មណ៍កម្មវិធីរុករក"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "브라우저 집중 모드 시작"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktiver nettleser-fokusmodus"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz tryb skupienia przeglądarki"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativar modo de foco do navegador"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включить режим фокусировки браузера"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เข้าสู่โหมดโฟกัสเบราว์เซอร์"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarayıcı odak modunu aç"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Увімкнути режим фокусування браузера"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "进入浏览器专注模式"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進入瀏覽器專注模式"
+          }
+        }
+      }
+    },
+    "command.browserFocusMode.exit.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إنهاء وضع تركيز المتصفح"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izađi iz načina fokusa preglednika"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afslut browser-fokustilstand"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser-Fokusmodus beenden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exit Browser Focus Mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salir del modo de enfoque del navegador"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitter le mode focus du navigateur"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esci dalla modalità focus del browser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザフォーカスモードを終了"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ចេញពីរបៀបផ្ដោតអារម្មណ៍កម្មវិធីរុករក"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "브라우저 집중 모드 종료"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avslutt nettleser-fokusmodus"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyłącz tryb skupienia przeglądarki"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sair do modo de foco do navegador"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выйти из режима фокусировки браузера"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ออกจากโหมดโฟกัสเบราว์เซอร์"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarayıcı odak modundan çık"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вийти з режиму фокусування браузера"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "退出浏览器专注模式"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "退出瀏覽器專注模式"
           }
         }
       }
@@ -74645,6 +78658,125 @@
         }
       }
     },
+    "menu.openInDevin": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Current Directory in Devin"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "現在のディレクトリを Devin で開く"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 Devin 中打开当前目录"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 Devin 中開啟目前目錄"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "현재 디렉토리를 Devin에서 열기"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktuelles Verzeichnis in Devin öffnen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir directorio actual en Devin"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir le répertoire courant dans Devin"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri la directory corrente in Devin"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Åbn nuværende mappe i Devin"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz bieżący katalog w Devin"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть текущий каталог в Devin"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otvori trenutni direktorij u Devin"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فتح الدليل الحالي في Devin"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Åpne gjeldende katalog i Devin"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Diretório Atual no Devin"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิดไดเรกทอรีปัจจุบันใน Devin"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçerli Dizini Devin'de Aç"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Відкрити поточну теку в Devin"
+          }
+        }
+      }
+    },
     "menu.openInCursor": {
       "extractionState": "manual",
       "localizations": {
@@ -78070,6 +82202,256 @@
         }
       }
     },
+    "menu.view.enterBrowserFocusMode": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تفعيل وضع تركيز المتصفح"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uđi u način fokusa preglednika"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktivér browser-fokustilstand"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser-Fokusmodus aktivieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter Browser Focus Mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar modo de enfoque del navegador"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer le mode focus du navigateur"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attiva la modalità focus del browser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザフォーカスモードに入る"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "បើករបៀបផ្ដោតអារម្មណ៍កម្មវិធីរុករក"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "브라우저 집중 모드 시작"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktiver nettleser-fokusmodus"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz tryb skupienia przeglądarki"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativar modo de foco do navegador"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включить режим фокусировки браузера"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เข้าสู่โหมดโฟกัสเบราว์เซอร์"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarayıcı odak modunu aç"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Увімкнути режим фокусування браузера"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "进入浏览器专注模式"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進入瀏覽器專注模式"
+          }
+        }
+      }
+    },
+    "menu.view.exitBrowserFocusMode": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إنهاء وضع تركيز المتصفح"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izađi iz načina fokusa preglednika"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afslut browser-fokustilstand"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser-Fokusmodus beenden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exit Browser Focus Mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salir del modo de enfoque del navegador"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitter le mode focus du navigateur"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esci dalla modalità focus del browser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザフォーカスモードを終了"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ចេញពីរបៀបផ្ដោតអារម្មណ៍កម្មវិធីរុករក"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "브라우저 집중 모드 종료"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avslutt nettleser-fokusmodus"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyłącz tryb skupienia przeglądarki"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sair do modo de foco do navegador"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выйти из режима фокусировки браузера"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ออกจากโหมดโฟกัสเบราว์เซอร์"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarayıcı odak modundan çık"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вийти з режиму фокусування браузера"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "退出浏览器专注模式"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "退出瀏覽器專注模式"
+          }
+        }
+      }
+    },
     "menu.view.showNotifications": {
       "extractionState": "manual",
       "localizations": {
@@ -79834,6 +84216,57 @@
           "stringUnit": {
             "state": "translated",
             "value": "破棄"
+          }
+        }
+      }
+    },
+    "notifications.forwardToPhone.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Forward notifications to my iPhone"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通知を iPhone に転送する"
+          }
+        }
+      }
+    },
+    "notifications.forwardToPhone.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Send agent notifications to the cmux iPhone app. Off by default; nothing is uploaded unless this is on."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "エージェントの通知を cmux の iPhone アプリに送信します。デフォルトはオフで、オンにしない限り何もアップロードされません。"
+          }
+        }
+      }
+    },
+    "notifications.forwardToPhone.hideContent": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide content (send a generic message instead of the terminal text)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "内容を非表示にする（ターミナルのテキストの代わりに一般的なメッセージを送信）"
           }
         }
       }
@@ -91274,6 +95707,98 @@
         }
       }
     },
+    "settings.automation.amp": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amp Integration"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amp連携"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amp 연동"
+          }
+        }
+      }
+    },
+    "settings.automation.amp.note": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hooks must be installed with `cmux hooks amp install`. They no-op outside cmux terminals. When disabled, the installed Amp plugin stays inactive without needing to be removed."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フックは`cmux hooks amp install`でインストールする必要があります。cmuxターミナル外では動作しません。無効にすると、インストール済みAmpプラグインは削除せずに停止状態に保たれます。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "`cmux hooks amp install`로 훅을 설치해야 합니다. cmux 터미널 외부에서는 작동하지 않습니다. 비활성화하면 설치된 Amp 플러그인은 제거하지 않고도 비활성 상태로 유지됩니다."
+          }
+        }
+      }
+    },
+    "settings.automation.amp.subtitleOff": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amp runs without cmux integration."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AmpはCmux連携なしで動作します。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amp가 cmux 연동 없이 실행됩니다."
+          }
+        }
+      }
+    },
+    "settings.automation.amp.subtitleOn": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sidebar shows Amp agent status and notifications."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サイドバーにAmpエージェントのステータスと通知が表示されます。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사이드바에 Amp 에이전트 상태와 알림이 표시됩니다."
+          }
+        }
+      }
+    },
     "settings.automation.claudeCode": {
       "extractionState": "manual",
       "localizations": {
@@ -98212,6 +102737,57 @@
           "stringUnit": {
             "state": "translated",
             "value": "Зберегти"
+          }
+        }
+      }
+    },
+    "settings.betaFeatures.customSidebars": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom Sidebars"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カスタムサイドバー"
+          }
+        }
+      }
+    },
+    "settings.betaFeatures.customSidebars.subtitleOff": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hides custom sidebars from the sidebar picker until you enable them here."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ここで有効にするまで、カスタムサイドバーをサイドバーピッカーに表示しません。"
+          }
+        }
+      }
+    },
+    "settings.betaFeatures.customSidebars.subtitleOn": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lists your sidebars from ~/.config/cmux/sidebars in the sidebar picker, rendered in an isolated helper process."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "~/.config/cmux/sidebars のサイドバーをサイドバーピッカーに表示し、分離されたヘルパープロセスで描画します。"
           }
         }
       }
@@ -123087,6 +127663,131 @@
         }
       }
     },
+    "shortcut.toggleBrowserFocusMode.label": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter Browser Focus Mode"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザフォーカスモードに入る"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تفعيل وضع تركيز المتصفح"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uđi u način fokusa preglednika"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktivér browser-fokustilstand"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser-Fokusmodus aktivieren"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar modo de enfoque del navegador"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer le mode focus du navigateur"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attiva la modalità focus del browser"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "បើករបៀបផ្ដោតអារម្មណ៍កម្មវិធីរុករក"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "브라우저 집중 모드 시작"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktiver nettleser-fokusmodus"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz tryb skupienia przeglądarki"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativar modo de foco do navegador"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включить режим фокусировки браузера"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เข้าสู่โหมดโฟกัสเบราว์เซอร์"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarayıcı odak modunu aç"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Увімкнути режим фокусування браузера"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "进入浏览器专注模式"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進入瀏覽器專注模式"
+          }
+        }
+      }
+    },
     "shortcut.toggleBrowserDevTools.label": {
       "extractionState": "manual",
       "localizations": {
@@ -123486,6 +128187,29 @@
           "stringUnit": {
             "state": "translated",
             "value": "파일 탐색기를 사용할 수 없습니다"
+          }
+        }
+      }
+    },
+    "fileExplorer.error.sshFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SSH command failed"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SSH コマンドに失敗しました"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SSH 명령에 실패했습니다"
           }
         }
       }
@@ -131721,6 +136445,23 @@
         }
       }
     },
+    "update.error.failed.message": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Something went wrong while checking for updates. Try again, or check the update log for details."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アップデートの確認中に問題が発生しました。もう一度お試しいただくか、アップデートログをご確認ください。"
+          }
+        }
+      }
+    },
     "update.error.failed.title": {
       "extractionState": "manual",
       "localizations": {
@@ -132907,6 +137648,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "Немає підключення до інтернету"
+          }
+        }
+      }
+    },
+    "update.error.notReady": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Updater is still starting. Try again in a moment."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アップデーターを準備中です。しばらくしてからもう一度お試しください。"
           }
         }
       }
@@ -141355,29 +146113,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "ID 복사"
-          }
-        }
-      }
-    },
-    "terminalContextMenu.lookUpFormat": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Look Up “%@”"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "「%@」を調べる"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "“%@” 찾아보기"
           }
         }
       }
@@ -156026,6 +160761,244 @@
         }
       }
     },
+    "cli.sidebar.error.allWithName": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sidebar %@: use either --all or a sidebar name, not both"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sidebar %@: --all またはサイドバー名のどちらか一方を指定してください"
+          }
+        }
+      }
+    },
+    "cli.sidebar.error.missingCommand": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sidebar requires a subcommand: validate, reload, or select"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sidebar にはサブコマンド validate、reload、select のいずれかが必要です"
+          }
+        }
+      }
+    },
+    "cli.sidebar.error.selectAll": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sidebar select does not support --all"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sidebar select は --all をサポートしていません"
+          }
+        }
+      }
+    },
+    "cli.sidebar.error.selectRequiresName": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sidebar select requires one sidebar name"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sidebar select にはサイドバー名が 1 つ必要です"
+          }
+        }
+      }
+    },
+    "cli.sidebar.error.unexpectedArguments": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sidebar %@ accepts at most one sidebar name"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sidebar %@ に指定できるサイドバー名は 1 つまでです"
+          }
+        }
+      }
+    },
+    "cli.sidebar.error.unknownCommand": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unknown sidebar command '%@'"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不明な sidebar コマンド '%@'"
+          }
+        }
+      }
+    },
+    "cli.sidebar.noSidebars": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No custom sidebars found."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カスタムサイドバーが見つかりません。"
+          }
+        }
+      }
+    },
+    "cli.sidebar.report.error": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ERROR %@ [%@] %@: %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "エラー %@ [%@] %@: %@"
+          }
+        }
+      }
+    },
+    "cli.sidebar.report.ok": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK %@ [%@] %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK %@ [%@] %@"
+          }
+        }
+      }
+    },
+    "cli.sidebar.report.reloadSummary": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reloaded %d valid sidebars. %d valid, %d invalid."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有効なサイドバーを %d 件再読み込みしました。%d 件有効、%d 件無効です。"
+          }
+        }
+      }
+    },
+    "cli.sidebar.report.selected": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected %@."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ を選択しました。"
+          }
+        }
+      }
+    },
+    "cli.sidebar.report.summary": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d valid, %d invalid."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d 件有効、%d 件無効です。"
+          }
+        }
+      }
+    },
+    "cli.sidebar.unknownError": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unknown error"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不明なエラー"
+          }
+        }
+      }
+    },
+    "cli.sidebar.usage": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux sidebar <validate|reload|select> [name|--all] [--json]\n\nValidate, reload, or select custom left sidebars from ~/.config/cmux/sidebars.\nSwift files win over JSON files with the same base name.\n\nCommands:\n  validate [name]   Validate all custom sidebars, or one named sidebar\n  reload [name]     Validate all sidebars, then reload every valid one\n  select <name>     Validate and activate one custom sidebar\n\nExamples:\n  cmux sidebar validate\n  cmux sidebar reload --all\n  cmux sidebar select finder.tree"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用法: cmux sidebar <validate|reload|select> [name|--all] [--json]\n\n~/.config/cmux/sidebars のカスタム左サイドバーを検証、再読み込み、または選択します。\n同じベース名の JSON ファイルより Swift ファイルが優先されます。\n\nコマンド:\n  validate [name]   すべてのカスタムサイドバー、または指定したサイドバーを検証します\n  reload [name]     すべてのサイドバーを検証して、有効なものを再読み込みします\n  select <name>     指定したカスタムサイドバーを検証して有効化します\n\n例:\n  cmux sidebar validate\n  cmux sidebar reload --all\n  cmux sidebar select finder.tree"
+          }
+        }
+      }
+    },
     "cli.rightSidebar.error.workspaceRequiresValue": {
       "extractionState": "manual",
       "localizations": {
@@ -168807,6 +173780,23 @@
         }
       }
     },
+    "sidebar.extensions.actionScope.createWorkspaceWithPath": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create workspaces with paths"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パス付きワークスペースを作成"
+          }
+        }
+      }
+    },
     "sidebar.extensions.actionScope.selectWorkspace": {
       "extractionState": "manual",
       "localizations": {
@@ -168888,6 +173878,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "拡張機能からリンクを開きます"
+          }
+        }
+      }
+    },
+    "sidebar.extensions.permission.createWorkspaceWithPath.detail": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create workspaces for specific local folders"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "特定のローカルフォルダ用のワークスペースを作成します"
           }
         }
       }
@@ -169632,6 +174639,1401 @@
           "stringUnit": {
             "state": "translated",
             "value": "Diff Viewer: Open File Search"
+          }
+        }
+      }
+    },
+    "ghostty.copy-mode.indicator": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vim"
+          }
+        }
+      }
+    },
+    "ghostty.key-table.indicator": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جدول المفاتيح"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tabela tipki"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tasttabel"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tastentabelle"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "key table"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tabla de teclas"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "table des touches"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tabella tasti"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キーテーブル"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "តារាងគ្រាប់ចុច"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "키 테이블"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tasttabell"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tabela klawiszy"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tabela de teclas"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "таблица клавиш"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตารางปุ่ม"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tuş tablosu"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "таблиця клавіш"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "按键表"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "按鍵表"
+          }
+        }
+      }
+    },
+    "ghostty.key-table.icon.accessibility": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جدول المفاتيح"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tabela tipki"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tasttabel"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tastentabelle"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Key table"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tabla de teclas"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Table des touches"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tabella tasti"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キーテーブル"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "តារាងគ្រាប់ចុច"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "키 테이블"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tasttabell"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tabela klawiszy"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tabela de teclas"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Таблица клавиш"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตารางปุ่ม"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuş tablosu"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Таблиця клавіш"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "按键表"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "按鍵表"
+          }
+        }
+      }
+    },
+    "settings.section.mobile": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobile"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "モバイル"
+          }
+        }
+      }
+    },
+    "settings.mobile.iOSPairingHost": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS Pairing"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS ペアリング"
+          }
+        }
+      }
+    },
+    "settings.mobile.iOSPairingHost.subtitleOff": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keeps the Mac-side iOS pairing listener off until you enable it here."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ここで有効にするまで、Mac 側の iOS ペアリングリスナーをオフにします。"
+          }
+        }
+      }
+    },
+    "settings.mobile.iOSPairingHost.subtitleOn": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allows the iOS app to discover and sync with this Mac on your local network."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS アプリがローカルネットワーク上でこの Mac を検出し、同期できるようにします。"
+          }
+        }
+      }
+    },
+    "settings.search.alias.section.mobile": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ios iphone ipad mobile pairing local network permission sync"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ios iphone ipad モバイル ペアリング ローカルネットワーク 権限 同期"
+          }
+        }
+      }
+    },
+    "settings.search.alias.setting.mobile.iOSPairingHost": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ios iphone ipad mobile pairing local network permission sync"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ios iphone ipad モバイル ペアリング ローカルネットワーク 権限 同期"
+          }
+        }
+      }
+    },
+    "mobile.pairing.window.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pair iPhone"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone をペアリング"
+          }
+        }
+      }
+    },
+    "mobile.pairing.window.heading": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pair your iPhone"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone をペアリング"
+          }
+        }
+      }
+    },
+    "mobile.pairing.window.subheading": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan this code with the cmux app on your iPhone to sync your terminal workspaces."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone の cmux アプリでこのコードをスキャンして、ターミナルワークスペースを同期します。"
+          }
+        }
+      }
+    },
+    "mobile.pairing.preparing": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preparing a pairing code…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペアリングコードを準備しています…"
+          }
+        }
+      }
+    },
+    "mobile.pairing.waiting": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waiting for your iPhone…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone を待っています…"
+          }
+        }
+      }
+    },
+    "mobile.pairing.refresh": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refresh Code"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コードを更新"
+          }
+        }
+      }
+    },
+    "mobile.pairing.retry": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try Again"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再試行"
+          }
+        }
+      }
+    },
+    "mobile.pairing.qrAccessibilityLabel": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pairing QR code"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペアリング QR コード"
+          }
+        }
+      }
+    },
+    "mobile.pairing.manual.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can't scan? Add this Mac manually:"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スキャンできない場合は、この Mac を手動で追加します:"
+          }
+        }
+      }
+    },
+    "mobile.pairing.step.install": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Install cmux on your iPhone and open it."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone に cmux をインストールして開きます。"
+          }
+        }
+      }
+    },
+    "mobile.pairing.step.signIn": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign in with the same account you use on this Mac."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "この Mac と同じアカウントでサインインします。"
+          }
+        }
+      }
+    },
+    "mobile.pairing.step.scan": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap Add device, then Scan QR Code, and point the camera at the code above."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "「デバイスを追加」→「QR コードをスキャン」をタップし、上のコードにカメラを向けます。"
+          }
+        }
+      }
+    },
+    "mobile.pairing.error.listenerOffline": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not start the pairing listener on this Mac."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "この Mac でペアリングリスナーを開始できませんでした。"
+          }
+        }
+      }
+    },
+    "mobile.pairing.error.noTicket": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not generate a pairing code. Try again."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペアリングコードを生成できませんでした。もう一度お試しください。"
+          }
+        }
+      }
+    },
+    "settings.mobile.pairDevice": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pair a Device"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デバイスをペアリング"
+          }
+        }
+      }
+    },
+    "settings.mobile.pairDevice.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show a QR code to pair your iPhone or iPad with this Mac."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "QR コードを表示して、iPhone または iPad をこの Mac とペアリングします。"
+          }
+        }
+      }
+    },
+    "settings.mobile.pairDevice.button": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pair…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペアリング…"
+          }
+        }
+      }
+    },
+    "mobile.pairing.checking": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Checking…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "確認しています…"
+          }
+        }
+      }
+    },
+    "mobile.pairing.req.signIn.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signed in to cmux"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux にサインイン済み"
+          }
+        }
+      }
+    },
+    "mobile.pairing.req.signIn.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign in to authorize this Mac for pairing."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "この Mac のペアリングを許可するにはサインインしてください。"
+          }
+        }
+      }
+    },
+    "mobile.pairing.req.tailscale.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tailscale"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tailscale"
+          }
+        }
+      }
+    },
+    "mobile.pairing.req.tailscale.get": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get Tailscale"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tailscale を入手"
+          }
+        }
+      }
+    },
+    "mobile.pairing.req.tailscale.reachable": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reachable over Tailscale."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tailscale 経由で接続できます。"
+          }
+        }
+      }
+    },
+    "mobile.pairing.req.tailscale.missing": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not detected. Install Tailscale on this Mac and your iPhone, signed in to the same account."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "検出されませんでした。この Mac と iPhone の両方に、同じアカウントで Tailscale をインストールしてください。"
+          }
+        }
+      }
+    },
+    "mobile.pairing.req.tailscale.hint": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your Mac and iPhone both need Tailscale to connect over the internet."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "インターネット経由で接続するには、Mac と iPhone の両方に Tailscale が必要です。"
+          }
+        }
+      }
+    },
+    "mobile.pairing.signIn.prompt": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign in with your cmux account to pair your iPhone."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone をペアリングするには、cmux アカウントでサインインしてください。"
+          }
+        }
+      }
+    },
+    "mobile.pairing.signIn.button": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign In"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サインイン"
+          }
+        }
+      }
+    },
+    "mobile.pairing.testflight.prompt": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Don't have it yet?"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "まだお持ちでないですか？"
+          }
+        }
+      }
+    },
+    "mobile.pairing.testflight.link": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download via TestFlight"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TestFlight でダウンロード"
+          }
+        }
+      }
+    },
+    "mobile.pairing.needsTailscale.body": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This Mac has no Tailscale address, so your iPhone can't reach it. Install Tailscale on this Mac and your iPhone (same account), then refresh."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "この Mac には Tailscale アドレスがないため、iPhone から接続できません。この Mac と iPhone の両方に（同じアカウントで）Tailscale をインストールしてから、更新してください。"
+          }
+        }
+      }
+    },
+    "mobile.pairing.qrUnavailable": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pairing code unavailable. Tap Refresh Code."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペアリングコードを利用できません。「コードを更新」をタップしてください。"
+          }
+        }
+      }
+    },
+    "settings.mobile.port": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pairing Port"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペアリングポート"
+          }
+        }
+      }
+    },
+    "settings.mobile.port.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preferred TCP port for the iOS pairing listener (1–65535)."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS ペアリングリスナーの優先 TCP ポート（1〜65535）。"
+          }
+        }
+      }
+    },
+    "settings.mobile.port.note": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Click Apply to change the port. cmux checks the port is free first: if it's in use, the current listener keeps running untouched; if it's free, it rebinds and connected devices reconnect on the new port."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ポートを変更するには「適用」をクリックします。cmux はまずポートが空いているか確認します。使用中の場合は現在のリスナーをそのまま維持し、空いている場合は再バインドして、接続中のデバイスは新しいポートで再接続します。"
+          }
+        }
+      }
+    },
+    "settings.mobile.port.status.starting": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starting the pairing listener…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペアリングリスナーを開始しています…"
+          }
+        }
+      }
+    },
+    "settings.mobile.port.status.fallback": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Port %lld is in use. Listening on %lld instead."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ポート %lld は使用中です。代わりにポート %lld で待ち受けています。"
+          }
+        }
+      }
+    },
+    "settings.mobile.port.status.ok": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listening on port %lld."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ポート %lld で待ち受けています。"
+          }
+        }
+      }
+    },
+    "settings.mobile.displayName": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Display Name"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "表示名"
+          }
+        }
+      }
+    },
+    "settings.mobile.displayName.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name the iOS app shows for this Mac when pairing. Empty uses this Mac's name."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペアリング時に iOS アプリがこの Mac に表示する名前。空の場合はこの Mac の名前を使用します。"
+          }
+        }
+      }
+    },
+    "settings.mobile.displayName.placeholder": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This Mac's name"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "この Mac の名前"
+          }
+        }
+      }
+    },
+    "settings.mobile.connections": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connected Devices"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "接続中のデバイス"
+          }
+        }
+      }
+    },
+    "settings.mobile.connections.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS devices currently attached to this Mac."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "現在この Mac に接続している iOS デバイス。"
+          }
+        }
+      }
+    },
+    "settings.mobile.routes.empty": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No reachable addresses yet. Pairing over the network needs Tailscale running on this Mac."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "到達可能なアドレスがまだありません。ネットワーク経由のペアリングには、この Mac で Tailscale が動作している必要があります。"
+          }
+        }
+      }
+    },
+    "settings.mobile.routes.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reachable at"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "接続先"
+          }
+        }
+      }
+    },
+    "settings.mobile.route.tailscale": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tailscale"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tailscale"
+          }
+        }
+      }
+    },
+    "settings.mobile.route.loopback": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loopback"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ループバック"
+          }
+        }
+      }
+    },
+    "settings.mobile.route.iroh": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iroh"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iroh"
+          }
+        }
+      }
+    },
+    "settings.mobile.route.websocket": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WebSocket"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WebSocket"
+          }
+        }
+      }
+    },
+    "settings.search.alias.setting.mobile.iOSPairingPort": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mobile ios iphone pairing port tcp listener firewall conflict bind"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "モバイル ios iphone ペアリング ポート tcp リスナー ファイアウォール 競合 バインド"
+          }
+        }
+      }
+    },
+    "settings.search.alias.setting.mobile.iOSPairingDisplayName": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mobile ios iphone pairing display name mac hostname device label"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "モバイル ios iphone ペアリング 表示名 mac ホスト名 デバイス ラベル"
+          }
+        }
+      }
+    },
+    "settings.mobile.port.status.invalid": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Port must be between 1 and 65535."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ポートは 1〜65535 の範囲で指定してください。"
+          }
+        }
+      }
+    },
+    "settings.mobile.port.apply": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apply"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "適用"
+          }
+        }
+      }
+    },
+    "settings.mobile.port.apply.inUse": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Port %lld is in use. Still listening on %lld."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ポート %lld は使用中です。引き続きポート %lld で待ち受けています。"
+          }
+        }
+      }
+    },
+    "settings.mobile.port.apply.saved": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saved. Will use port %lld when iOS Pairing is on."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存しました。iOS ペアリングを有効にするとポート %lld を使用します。"
           }
         }
       }

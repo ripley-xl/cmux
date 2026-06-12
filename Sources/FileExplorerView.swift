@@ -653,31 +653,6 @@ struct FileExplorerPanelView: NSViewRepresentable {
                 menu.addItem(.separator())
             }
 
-            // "Set as Root" for directories
-            if node.isDirectory {
-                let setRootItem = NSMenuItem(
-                    title: String(localized: "fileExplorer.contextMenu.setAsRoot", defaultValue: "Set as Root"),
-                    action: #selector(contextMenuSetAsRoot(_:)),
-                    keyEquivalent: ""
-                )
-                setRootItem.target = self
-                setRootItem.representedObject = node
-                menu.addItem(setRootItem)
-
-                // "Go Up" to parent directory
-                if !store.rootPath.isEmpty {
-                    let goUpItem = NSMenuItem(
-                        title: String(localized: "fileExplorer.contextMenu.goToParent", defaultValue: "Go to Parent"),
-                        action: #selector(contextMenuGoToParent(_:)),
-                        keyEquivalent: ""
-                    )
-                    goUpItem.target = self
-                    menu.addItem(goUpItem)
-                }
-
-                menu.addItem(.separator())
-            }
-
             menu.addFileExplorerInsertPathItems(target: self, representedObject: node, insertAction: #selector(contextMenuInsertPath(_:)), insertRelativeAction: #selector(contextMenuInsertRelativePath(_:)))
 
             let copyPathItem = NSMenuItem(
@@ -720,19 +695,6 @@ struct FileExplorerPanelView: NSViewRepresentable {
             let relativePath = FileExplorerTerminalPathInsertion.relativePath(for: node.path, rootPath: store.rootPath)
             NSPasteboard.general.clearContents()
             NSPasteboard.general.setString(relativePath, forType: .string)
-        }
-
-        @objc private func contextMenuSetAsRoot(_ sender: NSMenuItem) {
-            guard let node = sender.representedObject as? FileExplorerNode, node.isDirectory else { return }
-            store.setRootPath(node.path)
-        }
-
-        @objc private func contextMenuGoToParent(_ sender: NSMenuItem) {
-            let currentRoot = store.rootPath
-            guard !currentRoot.isEmpty else { return }
-            let parent = (currentRoot as NSString).deletingLastPathComponent
-            guard !parent.isEmpty, parent != currentRoot else { return }
-            store.setRootPath(parent)
         }
     }
 }

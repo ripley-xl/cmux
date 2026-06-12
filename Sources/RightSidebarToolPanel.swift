@@ -91,6 +91,24 @@ final class RightSidebarToolPanel: Panel, ObservableObject {
               let paneId = workspace.bonsplitController.focusedPaneId ?? workspace.bonsplitController.allPaneIds.first else {
             return
         }
+        if workspace.isRemoteWorkspace {
+            let store = fileExplorerStore
+            Task { [weak workspace, weak store] in
+                guard let workspace, let store else { return }
+                do {
+                    let localURL = try await store.materializeRemoteFileForPreview(path: filePath)
+                    _ = workspace.openFileSurfaces(
+                        inPane: paneId,
+                        filePaths: [localURL.path],
+                        focus: true,
+                        reuseExisting: true
+                    )
+                } catch {
+                    NSSound.beep()
+                }
+            }
+            return
+        }
         _ = workspace.openFileSurfaces(
             inPane: paneId,
             filePaths: [filePath],
@@ -174,27 +192,6 @@ final class RightSidebarToolPanel: Panel, ObservableObject {
                 return
             }
             let unavailableDetail = workspace.remoteConnectionDetail ?? workspace.remoteDaemonStatus.detail
-
-            // Resolve preferred remote CWD from panel directories.
-            // Only use directories from panels confirmed as remote terminal sessions.
-            let preferredRemoteDir: String? = {
-                guard workspace.remoteConnectionState == .connected else { return nil }
-                if let focusedPanelId = workspace.focusedPanelId,
-                   workspace.isRemoteTerminalSurface(focusedPanelId),
-                   let dir = workspace.panelDirectories[focusedPanelId]?
-                       .trimmingCharacters(in: .whitespacesAndNewlines),
-                   !dir.isEmpty {
-                    return dir
-                }
-                for (panelId, dir) in workspace.panelDirectories {
-                    let trimmed = dir.trimmingCharacters(in: .whitespacesAndNewlines)
-                    if !trimmed.isEmpty, workspace.isRemoteTerminalSurface(panelId) {
-                        return trimmed
-                    }
-                }
-                return nil
-            }()
-
             store.applyWorkspaceRoot(
                 .remoteSSH(
                     workspaceId: workspace.id,
@@ -205,9 +202,9 @@ final class RightSidebarToolPanel: Panel, ObservableObject {
                         sshOptions: configuration.sshOptions
                     ),
                     displayTarget: configuration.displayTarget,
+                    rootPath: workspace.currentDirectory,
                     isAvailable: workspace.remoteConnectionState == .connected,
-                    unavailableDetail: unavailableDetail,
-                    preferredRootPath: preferredRemoteDir
+                    unavailableDetail: unavailableDetail
                 )
             )
             return
